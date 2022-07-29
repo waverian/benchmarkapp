@@ -1,0 +1,76 @@
+#:import load_screen utils.load_screen
+#:import utils utils
+<Logo@Image>
+	source: 'data/icon_adaptive_foreground.png'
+
+<Label>
+	color: 1, 1, 1, 1
+
+<TallLabel@Label>
+    size_hint_y: None
+    text_size: self.width, None
+    height: self.texture_size[1]
+
+<Spacer@Widget>
+    size_hint_y: None
+    height: dp(32)
+    canvas.after:
+        Color:
+            rgba: 1, 1, 1, 1
+        BorderImage
+            border: 0, 0, 36, 0
+            source: 'data/theme/' + app.theme + '/images/focused_overlay.png'
+            pos: self.x, self.y + (self.height/2)
+            size: root.width, dp(1)
+
+<ScrollView>
+	always_overscroll: False
+	bar_width: dp(20)
+	scroll_type: ['bars'] if utils.is_desktop else ['bars', 'content']
+
+BoxLayout
+	canvas.before:
+		Color:
+			rgba: .184, .184, .184, 1
+		Rectangle:
+			pos: self.pos
+			size: self.size
+	Widget
+        size_hint_x: None
+        width: dp(27 if utils.device_has_notch() and app.rotation == 270 else 0)
+    BoxLayout
+        #padding: dp(9)
+        orientation: 'vertical'
+        Widget
+            size_hint_y: None
+            height: dp(32 if utils.device_has_notch() and app.rotation  == 0 else 0)
+		TabbedCarousel
+			id: tcarousel
+			tab_height: dp(63)
+			Screen
+				id: benchmark_screen
+				name: 'Benchmark'
+				on_parent: if args[1]: app.load_benchmark_info(self); Clock.schedule_once(lambda dt: tcarousel.on_current_tab(self, self.tab()), 1)
+				on_enter: app.load_benchmark_info(self)
+			Screen
+				id: charts_single
+				name: 'Single-Core Charts'
+				on_enter: app.load_charts(self, 'single')
+			Screen
+				id: charts_multi
+				name: 'Multi-Core Charts'
+				on_enter: app.load_charts(self, 'multiple')
+			Screen
+				id: charts_museum
+				name: 'Museum'
+				on_enter: app.load_museum(self)
+			Screen
+				id: about_screen
+				name: 'About'
+				on_enter: app.load_about(self)
+		Widget
+            size_hint_y: None
+            height: dp(12 if utils.device_has_notch() and app.rotation  == 0 else 0)
+    Widget
+        size_hint_x: None
+        width: dp(27 if utils.device_has_notch() and app.rotation == 90 else 0)

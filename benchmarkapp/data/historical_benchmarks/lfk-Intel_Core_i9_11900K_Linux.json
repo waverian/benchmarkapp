@@ -1,0 +1,279 @@
+{
+    "System": "Intel_Core_i9_11900K_Linux",
+    "Version": "1.0.0",
+    "Date": "10:3 15/4/2022",
+    "Compiler": "cc (Ubuntu 11.2.0-19ubuntu1) 11.2.0",
+    "Core count": "16",
+    "SINGLECORE RESULT": "1130.327784",
+    "MULTICORE RESULT": "9878.409491",
+    "Maximum": {
+        "Non-Optimized": {
+            "Singlecore": "2985",
+            "Multicore": "24043"
+        },
+        "Optimized": {
+            "Singlecore": "18153",
+            "Multicore": "144817"
+        }
+    },
+    "Average": {
+        "Non-Optimized": {
+            "Singlecore": "1310",
+            "Multicore": "11199"
+        },
+        "Optimized": {
+            "Singlecore": "5763",
+            "Multicore": "49945"
+        }
+    },
+    "Geometric": {
+        "Non-Optimized": {
+            "Singlecore": "1130",
+            "Multicore": "9878"
+        },
+        "Optimized": {
+            "Singlecore": "4308",
+            "Multicore": "41326"
+        }
+    },
+    "Harmonic": {
+        "Non-Optimized": {
+            "Singlecore": "986",
+            "Multicore": "8796"
+        },
+        "Optimized": {
+            "Singlecore": "3281",
+            "Multicore": "35162"
+        }
+    },
+    "Hydro fragment": {
+        "Non-Optimized": {
+            "Singlecore": "2113",
+            "Multicore": "16968"
+        },
+        "Optimized": {
+            "Singlecore": "16059",
+            "Multicore": "142547"
+        }
+    },
+    "ICCG excerpt": {
+        "Non-Optimized": {
+            "Singlecore": "1510",
+            "Multicore": "12733"
+        },
+        "Optimized": {
+            "Singlecore": "5822",
+            "Multicore": "49614"
+        }
+    },
+    "Inner product": {
+        "Non-Optimized": {
+            "Singlecore": "1043",
+            "Multicore": "9817"
+        },
+        "Optimized": {
+            "Singlecore": "2467",
+            "Multicore": "38052"
+        }
+    },
+    "Banded linear equations": {
+        "Non-Optimized": {
+            "Singlecore": "1016",
+            "Multicore": "9847"
+        },
+        "Optimized": {
+            "Singlecore": "2917",
+            "Multicore": "38808"
+        }
+    },
+    "Tri-diagonal elim, below diagonal": {
+        "Non-Optimized": {
+            "Singlecore": "723",
+            "Multicore": "8833"
+        },
+        "Optimized": {
+            "Singlecore": "1210",
+            "Multicore": "18964"
+        }
+    },
+    "General linear recurrence equations": {
+        "Non-Optimized": {
+            "Singlecore": "639",
+            "Multicore": "8022"
+        },
+        "Optimized": {
+            "Singlecore": "1165",
+            "Multicore": "18226"
+        }
+    },
+    "Equation of state fragment": {
+        "Non-Optimized": {
+            "Singlecore": "2985",
+            "Multicore": "23678"
+        },
+        "Optimized": {
+            "Singlecore": "18153",
+            "Multicore": "138835"
+        }
+    },
+    "ADI integrationt": {
+        "Non-Optimized": {
+            "Singlecore": "1798",
+            "Multicore": "14419"
+        },
+        "Optimized": {
+            "Singlecore": "9308",
+            "Multicore": "70211"
+        }
+    },
+    "Integrate predictors": {
+        "Non-Optimized": {
+            "Singlecore": "2415",
+            "Multicore": "19732"
+        },
+        "Optimized": {
+            "Singlecore": "9182",
+            "Multicore": "72567"
+        }
+    },
+    "Difference predictors": {
+        "Non-Optimized": {
+            "Singlecore": "756",
+            "Multicore": "6361"
+        },
+        "Optimized": {
+            "Singlecore": "5735",
+            "Multicore": "39605"
+        }
+    },
+    "First sum": {
+        "Non-Optimized": {
+            "Singlecore": "499",
+            "Multicore": "5525"
+        },
+        "Optimized": {
+            "Singlecore": "1202",
+            "Multicore": "18882"
+        }
+    },
+    "First difference": {
+        "Non-Optimized": {
+            "Singlecore": "665",
+            "Multicore": "5745"
+        },
+        "Optimized": {
+            "Singlecore": "3665",
+            "Multicore": "40323"
+        }
+    },
+    "2-D PIC (Particle In Cell)": {
+        "Non-Optimized": {
+            "Singlecore": "542",
+            "Multicore": "4756"
+        },
+        "Optimized": {
+            "Singlecore": "2428",
+            "Multicore": "18979"
+        }
+    },
+    "1-D PIC (Particle In Cell)t": {
+        "Non-Optimized": {
+            "Singlecore": "680",
+            "Multicore": "5843"
+        },
+        "Optimized": {
+            "Singlecore": "2335",
+            "Multicore": "21964"
+        }
+    },
+    "Casual Fortran. Development version": {
+        "Non-Optimized": {
+            "Singlecore": "1756",
+            "Multicore": "14500"
+        },
+        "Optimized": {
+            "Singlecore": "7473",
+            "Multicore": "59934"
+        }
+    },
+    "Monte Carlo search loop": {
+        "Non-Optimized": {
+            "Singlecore": "958",
+            "Multicore": "8271"
+        },
+        "Optimized": {
+            "Singlecore": "4402",
+            "Multicore": "38153"
+        }
+    },
+    "Implicit, conditional computation": {
+        "Non-Optimized": {
+            "Singlecore": "1362",
+            "Multicore": "14095"
+        },
+        "Optimized": {
+            "Singlecore": "2573",
+            "Multicore": "36718"
+        }
+    },
+    "2-D explicit hydrodynamics fragment": {
+        "Non-Optimized": {
+            "Singlecore": "1302",
+            "Multicore": "10454"
+        },
+        "Optimized": {
+            "Singlecore": "11963",
+            "Multicore": "89403"
+        }
+    },
+    "Discrete ordinates transport conditional recurrence": {
+        "Non-Optimized": {
+            "Singlecore": "2500",
+            "Multicore": "24035"
+        },
+        "Optimized": {
+            "Singlecore": "1394",
+            "Multicore": "22116"
+        }
+    },
+    "Matrix*matrix product": {
+        "Non-Optimized": {
+            "Singlecore": "810",
+            "Multicore": "6669"
+        },
+        "Optimized": {
+            "Singlecore": "11535",
+            "Multicore": "88476"
+        }
+    },
+    "Planckian distribution": {
+        "Non-Optimized": {
+            "Singlecore": "2794",
+            "Multicore": "23459"
+        },
+        "Optimized": {
+            "Singlecore": "3918",
+            "Multicore": "32510"
+        }
+    },
+    "2-D implicit hydrodynamics fragment": {
+        "Non-Optimized": {
+            "Singlecore": "1381",
+            "Multicore": "11077"
+        },
+        "Optimized": {
+            "Singlecore": "2388",
+            "Multicore": "33379"
+        }
+    },
+    "Find location of first minimum in array": {
+        "Non-Optimized": {
+            "Singlecore": "723",
+            "Multicore": "5978"
+        },
+        "Optimized": {
+            "Singlecore": "2866",
+            "Multicore": "23899"
+        }
+    }
+}

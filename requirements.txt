@@ -1,0 +1,4 @@
+kivy==2.1.0
+lfkbenchmark==1.0.0b4
+#python-gettext==4.0
+sentry_sdk==1.7.2
