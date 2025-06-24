@@ -1,4 +1,4 @@
-setuptools==71.1.0
+setuptools==78.1.1
 pillow==10.4.0
 git+https://kivy/kivy/buildozer.git@master
 docopt==0.6.2
