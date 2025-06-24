@@ -6,4 +6,4 @@ natsort==8.4.0
 
 # Kivy-Garden downloads requests 2.30.0, which depends on urllib, which has dropped support for OpenSSL 1.0
 requests==2.29.0; sys_platform == 'linux'
-urllib3==1.26.16; sys_platform == 'linux'
+urllib3==2.5.0; sys_platform == 'linux'
