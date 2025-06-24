@@ -1,0 +1,21 @@
+Introduced: 1996
+Generation of AMD Architecture : 5
+Example: AMD K5 100 MHz
+Architecture / Codename: K5
+KEYWORD_CPU_ARCH_ID: AMD_K5
+Cores / Threads: 1
+Technology node: 500 nm, 350 nm
+Die Size: ?
+Transistors: 4.3 million
+Frequency: 75-133 MHz
+Instructions: x86.
+TDP: ~20 watt?
+Cache L1: 24 KB = 16 KB + 8 KB (i+d)
+Cache L2: from 256 KB to 1 MB on the main-board.
+Cache L3: -
+Cache Total (ex.L1): -
+Memory type: EDO DRAM-33 MHz
+Memory bandwidth: -
+Memory Size, Max: -
+Historic note:
+Processor for Pentium socket. AMD's answer to the Intel Pentium Processor.

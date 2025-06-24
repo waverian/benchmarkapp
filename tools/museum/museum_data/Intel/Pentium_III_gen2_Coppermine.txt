@@ -1,0 +1,27 @@
+Introduced: 1999.10
+Generation of Intel Architecture : 6
+Generation of Intel Core: pre-historic.
+Example: Intel Pentium III 1000 MHz
+Architecture / Codename: P6
+KEYWORD_CPU_ARCH_ID: INTEL_PENTIUM3_2GEN_COPPERMINE
+Cores / Threads: 1/1
+Technology node: 180 nm
+Die Size: 80 mm²
+Transistors: 28 million
+Frequency: 500-1133 MHz
+Instructions: x86, MMX, SSE.
+TDP: ~30? Watts
+Socket: Socket 370
+Cache L1 (instructions / data): 16 KB / 16 KB
+Cache L2: 256 KB; at full-speed.
+Cache L3: -
+Memory type: SDRAM-133
+Memory bandwidth: 1 GB/s
+Memory Size, Max: 1 GB (practical; 4x 256 MB SDRAM modules)
+Memory Size, Max: 4 GB (theoretical; or 64 GB in PAE mode)
+Memory Size, Typical: 64-256 MB
+Historical note:
+Pentium III "Coppermine" converts the slot-based into socket-based system. 
+Plus adds 256 KB of L2-cache at full CPU speed. And bus speed upgrade to 133 MHz.
+Also shrinks the node process from 250 to 180 nm, doubling the performance.
+transistor count tripled due to the on-chip L2 cache.

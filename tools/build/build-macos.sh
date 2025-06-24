@@ -1,0 +1,1 @@
+./build_macos_pyinstaller.sh

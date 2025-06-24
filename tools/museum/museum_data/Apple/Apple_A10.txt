@@ -1,0 +1,20 @@
+Introduced: 2016
+Generation of Apple Architecture : 10
+Example: Apple A10 "Fusion"
+Example products: iPhone 7
+Architecture / Codename: Hurricane + Zephyr
+KEYWORD_CPU_ARCH_ID: APPLE_A10
+Cores / Threads: 2C+2c (2 Big Cores + 2 small cores)
+Technology node: 16 nm
+Die Size: 125 mm^2
+Transistors: ~3.28 billion
+Frequency: 1400 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~5? Watts
+Cache L1 (instructions / data): 64 KB + 64 KB
+Cache L2: 1 MB
+Cache L3: 4 MB
+Historical note:
+"Mister Twister". A new-generation of in-house Apple silicon.
+From Wikipedia 
+"The A10 is the first Apple-designed quad-core SoC, with two high-performance cores and two energy-efficient cores."

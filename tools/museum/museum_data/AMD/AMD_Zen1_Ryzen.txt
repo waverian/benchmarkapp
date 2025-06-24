@@ -1,0 +1,30 @@
+Introduced: 2017
+Generation of AMD Architecture : 12
+Architecture / Codename: Zen1
+KEYWORD_CPU_ARCH_ID: AMD_ZEN1
+Example CPU: AMD Ryzen 7 1700X
+Cores / Threads: 8/16
+Technology node: 14 nm
+Die Size: 213 mm²
+Transistors: 4.8 billion
+Frequency: 3400-3800 MHz
+Instructions: x86-64. MMX, SSE4.2, AMD-V, AVX2
+TDP: 95 watts
+Cache L1: 96 KB = 64 KB + 32 KB (i+d)
+Cache L2: 512 KB per core
+Cache L3: 4 MB per core (16 MB per 4-core CCX)
+Socket: AM4
+Memory type: DDR4 SDRAM-1866/2133
+Memory bandwidth: 34.1 GB/s
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 128 GB
+Historic note:
+This CPU was revolutionary, because 1st time in many decades AMD was able to out-perform Intel, at least in
+multi-threaded workloads. (Intel's competitor in summer-2017 was Core i7 7700K, which offered only 4 cores.)
+Addionally AMD has released AMD Threadripper 1950X Workstaion-class CPU, with 16 cores, to compete against 
+Core iX and Xeon workstations.
+---
+Intel at the time was sleeping for a decade from 2007 to 2017 only offering 4-cores in it's desktop offerings 
+(Core 2 Quad to Core i7-7700K),
+and another half a decade sleeping on it's laurels on re-releasing it's good, but aging Skylake architecture (2015-2021).
+Someone had to wake up Intel. Be it AMD, Apple, or maybe a bunch of ARM CPU vendors.

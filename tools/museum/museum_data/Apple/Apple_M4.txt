@@ -1,0 +1,35 @@
+Introduced: 2024
+Generation of Apple Architecture : 18
+Example: Apple M4
+Example products: Macbook Pro M4 / Mac Mini M4 / iPad Pro M4 (2024)
+Architecture / Codename: (?)
+KEYWORD_CPU_ARCH_ID: APPLE_M4
+Cores / Threads: 4P+6e (4 Performance Cores + 6 efficiency cores)
+Technology node: 3 nm (2nd-gen TSMC N3E)
+Die Size: 147 mm^2 (estimated)
+Transistors: 28 billion
+Frequency: 4400 MHz
+Instructions: ARMv9, 64-bit, NEON.
+TDP: ~15 Watts
+Cache L1 (instructions / data): 192 KB + 128 KB /P-core (?)
+Cache L2: 12 MB /P-cluster (?)
+Cache L3: -
+Memory type: LPDDR5X
+Memory bandwidth: 120 GB/s;
+Memory Size, Max: 16 GB
+Historical note:
+The M4 a huge upgrade by Apple. A mega-revolution.
+Ground-breaking performance.
+It has a completely new CPU architecture, much wider issue, with a new instruction decoder.
+Much improved branch prediction and intructions per clock (IPC) cycle.
+IPC is increased by about +15% vs the M3, and together with +10% clock, it delivers +25% 
+performance on single-core, beating everyone and anything at single-core.
+It is even beating top-end desktops AMD Ryzen 9 7950X, 9950X, 
+  and Intel Core i9-14900K at many single-core benchmarks, and web browsing !
+All of this while being passively cooled and completely silent on the iPad, in a 5-mm thin body.
+Totally ridiculous performance, that is unheard of ! 
+A 15-watt device beating a 300-watt, water-cooled, fastest desktop CPU (Intel's 14900K) !
+
+Variants:
+A18 - 6 cores (2P+4e); 5-6 GPU cores; mem.bandwidth = ? GB/sec; ? billion transistors
+M4 - 10 cores (4P+10e); 10 GPU cores; mem.bandwidth = 120 GB/sec; 28 billion transistors

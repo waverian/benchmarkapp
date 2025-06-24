@@ -1,0 +1,29 @@
+Introduced: 2022
+Generation of Apple Architecture : 15
+Example: Apple M2
+Example products: Macbook Air M2 / Mac Mini M2 (2022)
+Architecture / Codename: Avalanche + Blizzard
+KEYWORD_CPU_ARCH_ID: APPLE_M2
+Cores / Threads: 4P+4e (4 Performance Cores + 4 efficiency cores)
+Technology node: 5 nm (TSMC N5P)
+Die Size: 141 mm^2 (?)
+Transistors: 20 billion
+Frequency: 3500 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~15 Watts
+Cache L1 (instructions / data): 192 KB + 128 KB /P-core
+Cache L2: 12 MB /P-cluster
+Cache L3: -
+Memory type: LPDDR5
+Memory bandwidth: 102.4 GB/s; (up to 819.2 GB/s for M2 Ultra)
+Memory Size, Max: 24 GB (up to 192 GB for M2 Ultra)
+Historical note:
+The M2 is an evolution of the M1;
+Very similar architecture, but slightly faster.
+
+Variants:
+A15 - 6 cores (2P+4e); 4-5 GPU cores; mem.bandwidth = 34.1 GB/sec; 15 billion transistors
+M2 - 8 cores (4P+4e); 8-10 GPU cores; mem.bandwidth = 102.4 GB/sec; 20 billion transistors
+M2 Pro - 12 cores (8P+4e); 16-19 GPU cores; mem.bandwidth = 204.8 GB/sec; 40 billion transistors
+M2 Max - 12 cores (8P+4e); 30-38 GPU cores; mem.bandwidth = 409.6 GB/sec; 67 billion transistors
+M2 Ultra - 24 cores (16P+8e); 60-76 GPU cores; mem.bandwidth = 819.2 GB/sec; 134 billion transistors

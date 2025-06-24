@@ -1,0 +1,31 @@
+Introduced: 2008
+Generation of Intel Architecture : 9
+Generation of Intel Core: 1
+Example: Core i7-920
+Architecture / Codename: Nehalem / (Bloomfield or Lynnfield)
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_1GEN
+Cores / Threads: 4/8
+Technology node: 45 nm
+Die Size: 263 mm²
+Transistors: 731 million
+Frequency: 2666-3200 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x.
+TDP: 130 Watts
+Socket: Socket 1156 for i7-860 Lynnfield; Socket 1366 for i7-920 Bloomfield.
+Cache L1 (instructions / data): 4x 32 KB + 32 KB
+Cache L2: 4x 256 KB
+Cache L3: 8 MB (2MB per core, shared)
+Cache Total (ex.L1): 9 MB
+Memory type: DDR3-1066 SDRAM
+Memory bandwidth: 25.6 GB/s
+Memory Size, Typical: 4-8 GB
+Memory Size, Max: 24 GB
+Historical note:
+Nehalem. The next-gen of Intel Architecture.
+First Intel processor to integrate memory-controller on die, in the CPU itself, rather than in chipset.
+Adds SSE4.2 instructions and VT-x Nested Page Tables (aka VT-x 2.0) -- much faster virtualization.
+First CPU based to Intel Core to re-add the previously lost during Core 2 Duo era of "Hyper-Threading" technology.
+First CPU to feature both quad-core and 8-threads ! It was a whopping *huge* deal back in 2008 !
+First CPU to make DDR3 memory the common standard ! (most of previous-gen Core 2 Duos were running on DDR2)
+Bloomfield has a triple-channel memory controller vs. a dual-channel memory for Lynnfield.
+Performance for most applications is comparable.

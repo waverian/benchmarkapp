@@ -1,0 +1,24 @@
+Introduced: 2012
+Generation of Intel Architecture : 10
+Generation of Intel Core: 3
+Example: Core i7-3770
+Architecture / Codename: Ivy Bridge (Sandy Bridge variant)
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_3GEN
+Cores / Threads: 4/8
+Technology node: 22 nm
+Die Size: 160 mm²
+Transistors: 1.4 billion
+Frequency: 3400-3800 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX.
+TDP: 77 Watts
+Socket: Socket 1155
+Cache L1 (instructions / data): (64 KB/core) (32 KB + 32 KB)
+Cache L2: 256 KB / core
+Cache L3: 8 MB (2MB per core, shared)
+Memory type: DDR3 SDRAM
+Memory bandwidth: 21 GB/s
+Memory Size, Typical: 8-16 GB
+Memory Size, Max: 32 GB
+Historical note:
+A small improvement over Sandy Bridge 2000 series. Moved to a new 22 nm node.
+But performance is largely the same.

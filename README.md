@@ -64,7 +64,7 @@ Permissions
 -----------
 
 On Android < API 29 Our App currently asks for permissions for extrenal storage.
-Android API 29 onwards has MediaStore which helps us share file, 
+Android API 29 onwards has mediastore which helps us share file,
 saved in external storage; without having to ask for permissions.
 API < 29 we explicitly ask for permissions and based on state of permissions,
 enable sharing if permissions is granted.

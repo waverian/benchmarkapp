@@ -1,0 +1,30 @@
+Introduced: 2001
+Generation of AMD Architecture : 7.5
+Example: AMD Athlon XP 1800+ @ 1533 MHz
+Architecture / Codename: K7, Athlon XP, "Palomino", "Thoroughbred", "Barton"
+KEYWORD_CPU_ARCH_ID: AMD_ATHLONXP
+Cores / Threads: 1
+Technology node: 180 nm, 130 nm
+Die Size: 150 mm² (?)
+Transistors: 37 million
+Frequency: 1000-2200 MHz
+Instructions: x86. MMX. 3Dnow!, SSE
+TDP: ~65 watt
+Cache L1: 64 KB = 32 KB + 32 KB (i+d)
+Cache L2: 256 KB, L2 cache works CPU speed.
+Cache L3: -
+Cache Total (ex.L1): -
+Memory type: SDRAM-100/133 MHz
+Memory bandwidth: ~1.0 GB/s
+Memory Size, Typical: 128-256 MB
+Memory Size, Max: -
+Historic note:
+AMD Athlon XP added SSE instructions for 3D games, and increased clock speeds.
+"XP" officially stands for "eXtended Performance", and unofficially for "Windows XP",
+a Microsoft operating system released in the same time in 2001. Both work together beautifully.
+---
+During this time Ethernet-on-motherboard and Sound-on-motherboard became common.
+An amazing example is GIGABYTE GA7VRXP board that integrates both sound, LAN and RAID controller on-board !
+This was unheard of during the 1990's, on desktop computers.
+The +15 million transistors came from the on-chip L2 cache of 256 KB size.
+Otherwise the core itself is similar, and should be 22 million transistors.

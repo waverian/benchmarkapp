@@ -1,0 +1,24 @@
+Introduced: 1997
+Generation of AMD Architecture : 6
+Example: AMD K6 200 MHz
+Architecture / Codename: K6
+KEYWORD_CPU_ARCH_ID: AMD_K6
+Cores / Threads: 1
+Technology node: 300 nm, 250 nm
+Die Size: ?
+Transistors: 8.8 million
+Frequency: 166-300 MHz
+Instructions: x86. MMX. (+3Dnow! for K6-2)
+TDP: ~20 watt?
+Cache L1: 64 KB = 32 KB + 32 KB (i+d)
+Cache L2: from 256 KB to 1 MB on the main-board.
+Cache L3: -
+Cache Total (ex.L1): -
+Memory type: EDO DRAM-33 MHz
+Memory bandwidth: -
+Memory Size, Max: -
+Historic note:
+Processor for Pentium socket. MMX Technology. AMD's answer to the Intel Pentium Processor.
+AMD's first super-scalar and out-of-order design, acquired from NetGen (their Nx686 design).
+Super-scalar meaning it can execute more than 1 commands per clock cycle.
+Out-of-order meaning it can re-order instructions on the fly, provided it does not change the algorithm's logic.

@@ -1,0 +1,26 @@
+Introduced: 1999
+Generation of AMD Architecture : 7.0
+Example: AMD Athlon 500 MHz
+Architecture / Codename: K7, Athlon, "Argon", "Orion"
+KEYWORD_CPU_ARCH_ID: AMD_ATHLON_1GEN_SLOTA
+Cores / Threads: 1
+Technology node: 250 nm, 180 nm
+Die Size: 184 mm2 ("Argon"; CPU core without the L2 cache)
+Transistors: 22 million
+Frequency: 500-1000 MHz
+Instructions: x86. MMX. 3Dnow!
+TDP: ~65 watt
+Cache L1: 64 KB = 32 KB + 32 KB (i+d)
+Cache L2: 512 KB, L2 cache works at 1/3, 1/2 or 2/5 of CPU speed.
+Cache L3: -
+Cache Total (ex.L1): -
+Memory type: SDRAM-100/133 MHz
+Memory bandwidth: ~1.0 GB/s
+Memory Size, Typical: 64-256 MB
+Memory Size, Max: -
+Historic note:
+AMD's answer to the Intel Pentium III ! Amazing processor, and 1st time in history, 
+when AMD was able to defeat Intel on architecture and performance.
+Huge L1 cache at the time.
+(2nd time was during AMD Zen 2 architecture, in 2019, which is 20 years later!)
+AMD Athlon was the world's first processor to reach 1 GHz, costs $1299 upon release (Mar.2000).

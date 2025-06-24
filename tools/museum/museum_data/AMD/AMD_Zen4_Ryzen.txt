@@ -1,0 +1,30 @@
+Introduced: 2022
+Generation of AMD Architecture : 15
+Architecture / Codename: Zen4 "Raphael"
+KEYWORD_CPU_ARCH_ID: AMD_ZEN4
+Example CPU: AMD Ryzen 9 7950X
+Cores / Threads: 16/32
+Technology node: 5 nm
+Die Size: 2x 71 mm²(CPU) + 122 mm²(IO)
+Transistors: 13 billion
+Frequency: 3400-5700 MHz
+Instructions: x86-64. MMX, SSE4.2, AMD-V, AVX2, AVX512
+TDP: 170 watts (230 watt actual)
+Cache L1: 64 KB = 32 KB + 32 KB (i+d)
+Cache L2: 1 MB per core
+Cache L3: 4 MB per core
+Socket: AM5
+Memory type: DDR5
+Memory bandwidth:
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 256 GB
+Historic note:
+Zen 4 is a totally new Architecture by AMD; Added AVX512 instructions + an iGPU,
+which is really useful for Office computers, and avoids buying a video card, saving money.
+Also adds an RDNA2 GPU with AV1 video decoder, another very useful feature for office PC.
+As for CPU performance, it does significantly out-perform the previous Zen3, by like 20-25%
+in many ST and MT workloads, even at the same TDP levels.
+AMD has migrated to a 5 nm technology node and to DDR5 memory with this generation.
+Also doubling the RAM to 256 GB on the desktop, from 128 GB on AM4 systems. (ZEN1/2/3)
+On the downside, by default Zen4 consumes too much power, making the system too noisy with
+an average cooler, forcing people to use Eco-mode in BIOS to push TDP downwards.

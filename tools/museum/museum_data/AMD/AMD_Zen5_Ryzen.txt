@@ -1,0 +1,27 @@
+Introduced: 2024
+Generation of AMD Architecture : 15
+Architecture / Codename: Zen5 "Granite Ridge"
+KEYWORD_CPU_ARCH_ID: AMD_ZEN5
+Example CPU: AMD Ryzen 9 9950X
+Cores / Threads: 16/32
+Technology node: 4 nm
+Die Size: 2x 70 mm²(CPU) + 122 mm²(IO)
+Transistors: 16.6 billion
+Frequency: 3400-5700 MHz
+Instructions: x86-64. MMX, SSE4.2, AMD-V, AVX2, AVX512
+TDP: 170 watts (230 watt actual)
+Cache L1: 80 KB = 32 KB + 48 KB (i+d)
+Cache L2: 1 MB per core
+Cache L3: 4 MB per core
+Socket: AM5
+Memory type: DDR5
+Memory bandwidth:
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 256 GB
+Historic note:
+Zen 5 is a slightly faster version of Zen 4.
+AMD says it is a new architecture with +50% wider issue and more pipelines,
+but the benchmarks suggets there are major bottlenecks with this new architecture,
+making effective performance similar to that of the Zen 4.
+TDP by default is still too high, at 230 Watts. Can be cured via BIOS under-clocking / Eco-mode. Overall it feels like a minor refresh of the previous-gen 7000-series.
+No major performance boost in ST, and not in MT either.

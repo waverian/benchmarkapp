@@ -1,0 +1,22 @@
+Introduced: 2007
+Generation of AMD Architecture : 10
+Architecture / Codename: K10 (Agena)
+KEYWORD_CPU_ARCH_ID: AMD_PHENOM1
+Cores / Threads: 4
+Technology node: 65 nm
+Die Size: 285 mm²
+Transistors: 450 million
+Frequency: 1800-2600 MHz
+Instructions: x86-64. MMX, 3Dnow!, SSE4a, AMD-V
+TDP: 140 watts
+Socket: Socket AM2+
+Cache L1: 128 KB = 64 KB + 64 KB (i+d) per core
+Cache L2: 512 KB per core, full-speed
+Cache L3: 2 MB
+Memory type: DDR2 SDRAM-400/533 MHz
+Memory bandwidth: ~4 GB/s
+Memory Size, Max: 
+Historic note:
+AMD's 1st attempt to answer to the revolutionary Core 2 Duo CPU was partly successful.
+Phenom 1 was too late & too slow, and plagues by various hardware TLB bugs, 
+that were patched in the BIOS at the cost of performance.

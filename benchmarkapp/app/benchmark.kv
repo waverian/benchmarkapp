@@ -1,0 +1,165 @@
+
+#:import load_screen utils.load_screen
+#:import utils utils
+
+<SpinnerOptionBenchy@SpinnerOption>
+    valign: 'middle'
+    halign: 'center'
+    font_size: '13sp'
+    background_color: 1, 1, 1, .5 if self.state == 'down' else 1
+    background_normal: 'data/theme/' + app.theme + '/images/dropdown.png'
+    background_down: 'data/theme/' + app.theme + '/images/dropdown.png'
+    canvas.before:
+        Color:
+            rgba: 0, 0, 0, .3
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+<SpinnerBenchy@Spinner>
+    background_color: 1, 1, 1, .5 if self.state == 'down' else 1
+    background_normal: 'data/theme/' + app.theme + '/images/dropdown.png'
+    background_down: 'data/theme/' + app.theme + '/images/dropdown.png'
+    size_hint_x: None
+    width: root.height
+    option_cls: 'SpinnerOptionBenchy'
+    canvas.after:
+        Rectangle:
+            source: 'data/theme/' + app.theme + '/images/dropdown_overlay.png'
+            size: self.size
+            pos: self.pos
+
+
+
+<CopySave@BoxLayout>
+    result: None
+    size_hint_x: None
+    width: self.minimum_width
+    ImgButtHoverFocus
+        source: 'data/theme/blue/images/' + ('copy.png')
+        on_release:
+            utils.copy_to_clipboard(app.get_formatted_result(root.result))
+    #BoxLayout:
+    #    size_hint_x: None
+    #    width: self.minimum_width
+    #    canvas.before:
+    #        Color:
+    #            rgba: 1, 1, 1, 1
+    #        BorderImage:
+    #            border: dp(3), dp(3), dp(3), dp(3)
+    #            source: 'data/theme/' + app.theme + '/images/dropdown.png'
+    #            pos: self.pos
+    #            size: self.size
+    ImgButtHoverFocus
+        source: 'data/theme/blue/images/' + ('save.png' if utils.is_desktop else 'share.png')
+        on_release:
+            path = app.get_formatted_result(root.result, get_zip=save_type.text)
+            if path and utils.is_desktop: utils.save_data(str(path))
+            if path and not utils.is_desktop: utils.do_share(path, 'LFK Benchmark Results')
+    SpinnerBenchy:
+        id: save_type
+        text: '.zip'
+        values: '.txt', '.html', '.zip'
+
+
+<Logo@Image>
+	source: 'data/icon_adaptive_foreground.png'
+
+<Label>
+	color: 1, 1, 1, 1
+
+<VBoxLayout@BoxLayout>
+    orientation: 'vertical'
+    size_hint_y: None
+    height: self.minimum_height
+
+
+<TallLabel@Label>
+    size_hint_y: None
+    text_size: self.width, None
+    height: self.texture_size[1]
+
+<Spacer@Widget>
+    size_hint_y: None
+    height: dp(32)
+    canvas.after:
+        Color:
+            rgba: 1, 1, 1, 1
+        BorderImage
+            border: 0, 0, 0, 0
+            source: 'data/theme/' + app.theme + '/images/separator.png'
+            pos: self.x, self.y + (self.height/2)
+            size: root.width, dp(18)
+
+<MuseumButton@FocusLookBehavior+Button>
+    background_color: .5, .5, .5, ( 1 if self.state == 'normal' else .2)
+    background_down: self.background_normal
+
+<MuseumToggleButton@FocusLookBehavior+ToggleButton>
+    background_color: .5, .5, .5, ( 1 if self.state == 'normal' else .2)
+    background_down: self.background_normal
+
+<ImgButt@ButtonBehavior+Image>
+    size_hint_x: None
+    width: self.height
+
+<ImgButtHoverFocus@FocusLookBehavior+ImgButt>
+    color: 1, 1, 1, 1 if self.state == 'normal' else .5
+
+<WTextInput@TextInput>
+    foreground_color: 1, 1, 1, 1
+    keyboard_suggestions: False
+    anim_x: 0
+    anim_width: 0
+    multiline: False
+    write_tab: False
+    background_active: 'data/theme/' + app.theme + '/images/bkank.png'
+    background_normal: self.background_active
+    on_focus:
+        from kivy.animation import Animation
+        Animation(anim_x=root.x if args[1] else root.center_x, anim_width=root.width if args[1] else 0, d=.27).start(self)
+        if not args[1]: from utils.keyboard import refocus_window; refocus_window()
+    canvas.after:
+        Color:
+            rgba: 1, 1, 1, .5
+        Rectangle:
+            id: rect
+            size: root.width, dp(2)
+            pos: root.pos
+        Color:
+            rgba: 1, 1, 1, (1 if self.focus else .5)
+        Rectangle:
+            id: rect
+            size: root.anim_width or 0, dp(2)
+            pos: root.anim_x or 0, root.y
+
+#:import SlideTransition kivy.uix.screenmanager.SlideTransition
+
+FloatLayout
+    BoxLayout
+        canvas.before:
+            Color:
+                rgba: app.primary_color
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Widget
+            size_hint_x: None
+            width: dp(45 if utils.device_has_notch() and app.rotation == 270 and not utils.iPad else 0)
+        BoxLayout
+            #padding: dp(9)
+            orientation: 'vertical'
+            Widget
+                size_hint_y: None
+                height: dp(36 if utils.device_has_notch() and app.rotation  == 0 else 0)
+            ScreenManager
+                id: manager
+                #size_hint_x: None
+                #width: app._window_width
+                transition: SlideTransition()
+            Widget
+                size_hint_y: None
+                height: dp(19 if utils.device_has_notch() and app.rotation  == 0 else 0)
+        Widget
+            size_hint_x: None
+            width: dp(45 if utils.device_has_notch() and app.rotation == 90 and not utils.iPad else 0)

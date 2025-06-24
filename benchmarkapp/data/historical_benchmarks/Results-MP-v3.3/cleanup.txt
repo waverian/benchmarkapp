@@ -1,0 +1,3 @@
+1. 4th-gen Core i5's.
+2. Xeons / EPYCs
+3. All DOS and Windows results.

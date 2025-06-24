@@ -1,0 +1,31 @@
+Introduced: 2007
+Generation of Intel Architecture : 8 (8.2)
+Generation of Intel Core: 0
+Example: Core 2 Duo E8400 @ 3.00 GHz
+Architecture / Codename: Wolfdale
+KEYWORD_CPU_ARCH_ID: INTEL_CORE2DUO_2GEN_WOLFDALE
+Cores / Threads: 2/2
+Technology node: 45 nm
+Die Size: 107 mm^2
+Transistors: 410 million
+Frequency: 2533-3500 MHz
+Instructions: x86-64, MMX, SSE4.1, VT-x.
+TDP: 65 Watts
+Socket: Socket 775
+Cache L1 (instructions / data): (64 KB / core) (32 KB + 32 KB)
+Cache L2: 6 MB total; 3 MB / core
+Cache L3: -
+Memory type: DDR2/DDR3 SDRAM
+Memory bandwidth: 25.6 GB/s
+Memory Size, Typical: 1-4 GB
+Memory Size, Max: 8 GB (for most common mainboards)
+Historical note:
+Wolfdale. An improved Conroe.
+Much smaller process node leads to a much smaller die size.
+Intel decided to increase cache size from 4 MB to 6 MB. By +50%.
+Intel also improved branch prediction, added a Radix-16 divider, 
+improving performance and introduced SSE 4.1 new instructions.
+
+Variants:
+Core 2 Quad Q8000/ Q9000 series "Yorkfield" have 4-cores. Double the cores, transistors and the TDP to 130 Watts.
+Some models have halved L2 cache, and/or disabled VT-x virtualization.

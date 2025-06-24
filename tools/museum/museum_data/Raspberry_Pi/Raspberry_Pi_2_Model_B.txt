@@ -1,0 +1,13 @@
+Introduced: 2015
+Generation of Raspberry Pi : 2
+Example: Raspberry Pi 2 Model B
+Chip: Broadcom BCM2836
+Architecture / Codename: ARM Cortex A7
+KEYWORD_CPU_ARCH_ID: RPI_2
+Cores / Threads: 4/4
+Technology node: 40 nm
+Frequency: 900-1000 MHz (default = 900)
+Instructions: ARMv7, 32-bit, NEON
+TDP: ~5 Watts
+Historical note:
+2nd gen hobby computer. Quad-core and 10x faster than the original 1st gen!

@@ -1,0 +1,22 @@
+Introduced: 2021
+Generation of Apple Architecture : 15
+Example: Apple A15 "Bionic"
+Example products: iPhone 13 Pro / Pro Max
+Architecture / Codename: Avalanche + Blizzard
+KEYWORD_CPU_ARCH_ID: APPLE_A15
+Cores / Threads: 2P+4e (2 Performance Cores + 4 efficiency cores)
+Technology node: 5 nm (TSMC N5P)
+Die Size: 107.7 mm^2
+Transistors: 15 billion
+Frequency: 3200 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~8 Watts
+Cache L1 (instructions / data): 192 KB + 128 KB /P-core
+Cache L2: 12 MB
+Cache L3: -
+Memory type: LPDDR4X (Apple)
+Memory bandwidth: 34.1 GB/sec
+Memory Size, Max: 6 GB
+Historical note:
+According to our own quick testing, the new big cores of "Avalanche" seem similar to those of "Firestorm".
+Perhaps a small modification of "Firestorm".

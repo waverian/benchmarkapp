@@ -1,0 +1,36 @@
+Introduced: 1997.05
+Generation of Intel Architecture : 6
+Generation of Intel Core: pre-historic.
+Example: Intel Pentium II 400 MHz
+Architecture / Codename: P6 (Klamath and Deschutes)
+KEYWORD_CPU_ARCH_ID: INTEL_PENTIUM2
+Cores / Threads: 1/1
+Technology node: 250 nm (250 for Deschutes and 350 nm for Klamath)
+Die Size: 113 mm² (for Deschutes); and bigger for Klamath
+Transistors: 7.5 million
+Frequency: 233-450 MHz
+Instructions: x86, MMX.
+TDP: ~15-30? Watts
+Socket: Slot 1
+Cache L1 (instructions / data): 16 KB / 16 KB
+Cache L2: 512 KB; at half-speed.
+Cache L3: -
+Memory type: SDRAM-100
+Memory bandwidth: 1 GB/s
+Memory Size, Max: 1 GB (practical; 4x 256 MB SDRAM modules)
+Memory Size, Max: 4 GB (theoretical; or 64 GB in PAE mode)
+Memory Size, Typical: 64-128 MB
+Historical note:
+the Pentium II. Revolutionary P6 architecture.
+Super-scalar with multiple execution units, branch prediction and micro-code
+to transform x86 to internal machine-code.
+Much faster than the original Pentium, clock-for-clock on 32-bit code execution.
+Speculative execution and out-of-order completion.
+All modern processors are essentially based on this concept, so we can call all
+modern CPUs as a Pentium II-descendats of sorts, at least in idea.
+L2 cache works at half the CPU speed, so a 400 MHz chip had only a 200 MHz L2 cache.
+L1 cache always works at full CPU speed, for all models.
+
+Variants:
+Celeron, based on the Pentium II, had no L2 cache at all for early models, and only 128 KB
+for later models; while Server-based Pentium II Xeon chips have had 1 MB or 2 MB full-speed L2.

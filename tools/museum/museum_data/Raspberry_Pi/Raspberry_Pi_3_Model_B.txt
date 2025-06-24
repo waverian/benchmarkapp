@@ -1,0 +1,13 @@
+Introduced: 2016
+Generation of Raspberry Pi : 3
+Example: Raspberry Pi 3 Model B
+Chip: Broadcom BCM2837
+Architecture / Codename: ARM Cortex A53
+KEYWORD_CPU_ARCH_ID: RPI_3
+Cores / Threads: 4/4
+Technology node: 40 nm
+Frequency: 1200 MHz
+Instructions: ARMv8, 64-bit, NEON
+TDP: ~5 Watts
+Historical note:
+3rd gen hobby computer. 64-bit capable and added WiFi and Bluetooth !

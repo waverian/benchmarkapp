@@ -1,0 +1,43 @@
+Introduced: 1989
+Generation of Intel Architecture : 4
+Generation of Intel Core: pre-historic.
+Example: 486DX2-66 MHz
+Architecture / Codename: P4
+KEYWORD_CPU_ARCH_ID: INTEL_486
+Cores / Threads: 1/1
+Technology node: 800 nm (600 nm for some models)
+Die Size: ~90 mm²
+Transistors: 1.25 million
+Frequency: 33-100 MHz
+Instructions: x86. 32-bit.
+TDP: ~10 Watts est.
+Cache L1 (instructions / data): 8 KB (shared for i+d)
+Cache L2: up to 512 KB (on mainboard)
+Cache L3: -
+Memory type: EDO-DRAM (most common)
+Memory bandwidth:
+Memory Size, typical: 8-16 MB
+Memory Size, Max: theoretical. max = 4 GB; practical max = 64 MB
+Historical note:
+4th gen Intel architecture.
+a 32-bit processor introduced in 1989.
+This processor contains a new x87 FPU + L1 cache. And a 33 MHz bus.
+This chip, while high-end at the time, used on desktop PCs,
+it could be passively cooled.
+it used 5 volts (vs modern CPUs of ~0.7-1.0 V).
+486 was about 2x (twice) as fast as a 386 at the same clock rate !
+So a 486DX2-66 was about ~8x times (!) faster than a 386DX-16 chip in most 16-bit and 32-bit applications.
+2x due to IPC; instructions per clock efficiency gains of 486 architecture.
+multiplied by 4x due to higher clock-rate. All that in a space of only several years !
+Mind-boggling progress at the time in the 1980's and the 1990's. The Golden Era of Compute.
+
+NOTE: After Intel, other vendors, including AMD, Cyrix, GreenCPU, IBM and ST copied this design,
+and released their own compatible versions. They had very similar architecture and performance,
+and were socket compatible with Intel systems.
+
+Variants:
+486SX - a variant without a floating-point unit (FPU), which had to be purchased separately.
+486DX-33 MHz - multiplier x1; released in 1989.
+486DX2-66 MHz - multiplier x2; released in 1992. (most common)
+486DX4-100 MHz - multiplier x3 (not x4 !); released in 1994 + 16K L1 cache. 1.6m transistors.
+There were also a variants with 20 MHz/40/50 and 75 MHz. Less common.

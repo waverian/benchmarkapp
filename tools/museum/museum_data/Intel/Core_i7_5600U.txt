@@ -1,0 +1,25 @@
+Introduced: 2014
+Generation of Architecture : 11
+Generation of Intel Core: 5
+Example: Core i7-5600U
+Architecture / Codename: Broadwell (Haswell variant)
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_5GEN
+Cores / Threads: 2/4
+Technology node: 14 nm
+Die Size: ?? mm^2
+Transistors: ?? billion
+Frequency: ? MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX2.
+TDP: 15 Watts
+Cache L1 (instructions / data): (64 KB / core) (32 KB + 32 KB)
+Cache L2: 256 KB / core
+Cache L3: 4 MB (in this dual-core chip) (2 MB per core)
+Memory type: DDR3 SDRAM, 1600
+Memory bandwidth: 25.6 GB/s
+Memory Size, Max: 32 GB
+Historic note:
+Broadwell was an evolution of Haswell. Moved to 14nm node process. Added ADX (arbitrary-precision integer),
+ RDSEED (a new random number generator for improved security & encryption).
+Note, that this generation never offered top-of-the-line desktop & gaming PC, something like the hypothetical Core i7-5700K.
+This generation was mostly successful at mobile (notebook & laptop) markets with the Core i7 5600U,
+and server market with Xeon E5 v4 family.

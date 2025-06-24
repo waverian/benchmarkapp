@@ -1,0 +1,26 @@
+Introduced: 2024
+Generation of Apple Architecture : 18
+Example: Apple A18 Pro
+Example products: iPhone 16 Pro / Pro Max
+Architecture / Codename:
+KEYWORD_CPU_ARCH_ID: APPLE_A18
+Cores / Threads: 2P+4e (2 Performance Cores + 4 efficiency cores)
+Technology node: 3 nm (TSMC N3E)
+Die Size: 105 mm2
+Transistors: ~20 billion estimated.
+Frequency: 4000 MHz
+Instructions: ARMv9, 64-bit, NEON.
+TDP: ~8 Watts
+Cache L1 (instructions / data): 192 KB + 128 KB /P-core
+Cache L2: 16 MB
+Cache L3: -
+Memory type: LPDDR5 ?
+Memory bandwidth:
+Memory Size, Max: 8 GB
+Historical note:
+Ground-breaking design changes from the Apple M4 down-scaled to the A18 chip.
+Absolutely amazing performance for web-browsing, video, and office tasks.
+Even beating most desktop-class PCs for those workloads.
+Also Apple's first ARMv9 design !
+Apple's A18 and M4 are world's most advanced processor designs by far !
+Highest single-threaded performance coupled with best power-efficiency.

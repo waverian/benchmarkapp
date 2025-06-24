@@ -1,0 +1,27 @@
+Introduced: 2002
+Generation of Intel Architecture : 7 (7.2)
+Generation of Intel Core: pre-historic.
+Example: Intel Pentium 4 2800 MHz
+Architecture / Codename: NetBust / Northwood
+KEYWORD_CPU_ARCH_ID: INTEL_PENTIUM4_2GEN_NORTHWOOD
+Cores / Threads: 1/2
+Technology node: 130 nm
+Die Size: 131 mm^2
+Transistors: 55 million
+Frequency: 1600-3400 MHz
+Instructions: x86, MMX, SSE, SSE2
+TDP: ~35-110 Watts
+Socket: Socket 478
+Cache L1 (instructions / data): 8 KB / 8 KB (8 KB for micro-instructions t-cache)
+Cache L2: 512 KB
+Cache L3: -
+Memory type: SDRAM/DDR1/DDR2/RDRAM
+Memory bandwidth: varied.
+Memory Size, Max: 4 GB (64 GB with PAE mode)
+Memory Size, Typical: 128-512 MB (typically with a much cheaper DDR1 SDRAM)
+Historical note:
+Northwood was a 2nd-gen Pentium 4, upgrading sockets, and doubling the L2 cache to 512 KB,
+tech node from 180 to 130 nm, and improving clock rate and performance significantly.
+Some models even support Hyper-threading, allowind for 2 threads on a single-core.
+The idea is that for a +5% transistor budget, it is possible to get a +30% performance in some applications.
+Increased transistor budget from 42 to 55 million comes mainly from the doubling of L2 cache.

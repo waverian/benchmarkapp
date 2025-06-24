@@ -1,0 +1,21 @@
+Introduced: 2012
+Generation of Apple Architecture : 6
+Example: Apple A6
+Example products: iPhone 5
+Architecture / Codename: Swift
+KEYWORD_CPU_ARCH_ID: APPLE_A6
+Cores / Threads: 2/2
+Technology node: 32 nm
+Die Size: 97 mm^2
+Transistors: ? million
+Frequency: 1300 MHz
+Instructions: ARMv7, 32-bit, NEON.
+TDP: ~5? Watts
+Cache L1 (instructions / data): 32 KB + 32 KB
+Cache L2: 1 MB
+Cache L3: none
+Historical note:
+"Swift" -- 1st Apple architecture CPU core designed in-house.
+Until now, Apple was designing it's chips using standard ARM Cortex cores.
+Performance of the iPhone was similar to that of the Android vendors.
+From this point on-wards Apple CPU's was a distinct product.

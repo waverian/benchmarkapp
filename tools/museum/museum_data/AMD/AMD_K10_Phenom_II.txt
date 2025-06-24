@@ -1,0 +1,26 @@
+Introduced: 2009
+Generation of AMD Architecture : 10.2
+Example: AMD Phenom II X6 1100T
+Architecture / Codename: K10 (Deneb, Thuban)
+KEYWORD_CPU_ARCH_ID: AMD_PHENOM2
+Cores / Threads: 4 (for X4 Deneb); 6 for X6 Thuban.
+Technology node: 45 nm
+Die Size: 258 mm² (for X4 Deneb)
+Transistors: 758 million (for x4) and 904 million (for X6)
+Frequency: 1800-3300 MHz
+Instructions: x86-64. MMX, 3Dnow!, SSE4a, AMD-V
+TDP: 125-140 watts
+Socket: Socket AM3
+Cache L1: 128 KB = 64 KB + 64 KB (i+d) per core
+Cache L2: 512 KB per core, full-speed
+Cache L3: 6 MB
+Cache Total (ex.L1): -
+Socket: AM2+
+Memory type: DDR2 SDRAM-400/533 MHz
+Memory bandwidth: ~4 GB/s
+Memory Size, Max: -
+Historic note:
+AMD's 2nd attempt to answer to Core 2 Duo/Core 2 Quad was finally successful.
+Tripled amount of cache.
+But this CPU was too late, delivered only shortly before Intel's Decade-best CPU,
+"Sandy Bridge", aka Intel Core i7 2600 series.

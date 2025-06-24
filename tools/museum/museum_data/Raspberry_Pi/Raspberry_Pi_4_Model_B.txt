@@ -1,0 +1,15 @@
+Introduced: 2019
+Generation of Raspberry Pi : 4
+Example: Raspberry Pi 4 Model B
+Chip: Broadcom BCM2711
+Architecture / Codename: ARM Cortex A72
+KEYWORD_CPU_ARCH_ID: RPI_4
+Cores / Threads: 4/4
+Technology node: 28 nm
+Frequency: 1500-1800 MHz (default = 1500)
+Instructions: ARMv8, 64-bit, NEON
+TDP: ~5 Watts
+Historical note:
+4th gen hobby computer. Much faster chip than previous versions,
+and included a much faster I/O, storage and Gigabit Ethernet.
+Some versions even have a PCI-e slot ! (IO board)

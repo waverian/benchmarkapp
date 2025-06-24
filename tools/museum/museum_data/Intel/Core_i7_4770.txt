@@ -1,0 +1,38 @@
+Introduced: 2013
+Generation of Architecture : 11
+Generation of Intel Core: 4
+Example: Core i7-4770
+Architecture / Codename: Haswell
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_4GEN
+Cores / Threads: 4/8
+Technology node: 22 nm
+Die Size: 177 mm²
+Transistors: 1.4 billion
+Frequency: 3400-4400 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX2.
+TDP: 84 Watts
+Socket: Socket 1150
+Cache L1 (instructions / data): (64 KB/core) (32 KB + 32 KB)
+Cache L2: 256 KB / core
+Cache L3: 8 MB (2MB per core, shared)
+Memory type: DDR3 SDRAM, 1600
+Memory bandwidth: 25.6 GB/s
+Memory Size, Typical: 8-32 GB
+Memory Size, Max: 32 GB
+Historic note:
+One of the biggest generations ever made by Intel in terms of new features & instructions.
+2nd biggest only to AMD Athlon 64 -- invention of x86-64 architecture itself !
+It has added AVX2, BMI, HLE , RTM, FMA3, MOVBE, zero-latency register moves,
+and more.
+
+HLE - Hardware Lock Elision, a backward compatible set of prefixes that can be applied to instructions such as LOCK CMPXCHG to minimize lock overhead under low contention
+RTM - Restricted Transactional Memory, the feature I've anticipated the most, the ability to atomically roll back a block of code or atomically commit a block of code
+BMI - Bit Manipulation Instructions, this is a set of about a dozen new 32-bit and 64-bit integer operations designed to perform Hacker's Delight type of bit manipulation instructions, bitfield operations, and flag-less shifts and multiplies.  These are designed to accelerate encryption and handling of non-byte aligned data, such as processing bit vectors, decoding instructions, or performing bitfield moves.
+AVX2 - what SSE2 was to SSE, AVX2 is to AVX, adding 256-bit packed integer operations to the AVX instruction set
+FMA3 - Fused-Multiply-Add support permits common floating operations such as dot product and matrix multiply to execute multiply+add in one instruction
+a 4th ALU - up to 4 integer ALU operations can retire per clock cycle, leading to peak integer performance of over 14000 MIPS per core, definitely something that helps legacy code
+MOVBE - Move Big Endian load/store support, previously only available on the Atom, specifically helps to accelerate simulators of big endian machines such as 68040 and PowerPC.
+zero-latency register moves - common register-to-register move operations are handled by the register renamer instead of wasting an ALU operation, speeding up register calling convention
+
+Read "Haswell's great leap forward":
+http://emulators.com/docs/nx36_haswell_262.htm

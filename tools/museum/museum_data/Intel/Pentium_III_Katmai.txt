@@ -1,0 +1,25 @@
+Introduced: 1999.02
+Generation of Intel Architecture : 6
+Generation of Intel Core: pre-historic.
+Example: Intel Pentium III 500 MHz
+Architecture / Codename: P6
+KEYWORD_CPU_ARCH_ID: INTEL_PENTIUM3_1GEN_KATMAI
+Cores / Threads: 1/1
+Technology node: 250 nm
+Die Size: 128 mm²
+Transistors: 9.5 million
+Frequency: 450-600 MHz
+Instructions: x86, MMX, SSE.
+TDP: ~30? Watts
+Socket: Slot 1
+Cache L1 (instructions / data): 16 KB / 16 KB
+Cache L2: 512 KB; at half-speed.
+Cache L3: -
+Memory type: SDRAM-100 / SDRAM-133
+Memory bandwidth: 1 GB/s
+Memory Size, Max: 1 GB (practical; 4x 256 MB SDRAM modules)
+Memory Size, Max: 4 GB (theoretical; or 64 GB in PAE mode)
+Memory Size, Typical: 64-128 MB
+Historical note:
+Evolution of the Pentium II. Same P6 architecture, same slot 1, but adds SSE instructions to accelerate 3D gaming.
+L2 cache works at half the CPU speed.

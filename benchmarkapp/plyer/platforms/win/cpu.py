@@ -229,12 +229,13 @@ class WinCPU(CPU):
             import winreg as winreg
         except ImportError as err:
             import winreg
-        
-        # Get the CPU Name
+
+        # Get the CPU name
         key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, r"Hardware\\Description\\System\\CentralProcessor\\0")
         processor_brand = winreg.QueryValueEx(key, "ProcessorNameString")[0]
         winreg.CloseKey(key)
         return processor_brand.strip()
+
 
     def _architecture(self):
         import os

@@ -1,0 +1,35 @@
+Introduced: 2023
+Generation of Intel Architecture : 14
+Generation of Intel Core: 14
+Example: Core i9-14900K
+Architecture / Codename: Raptor Lake Refresh / Golden Cove
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_14GEN
+Cores / Threads: 8P+16e/32
+Technology node: 10 nm
+Die Size: 257 mm²
+Transistors: 
+Frequency: 3200-6000 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX2.
+TDP: 253 Watts (real TDP ~300 Watts)
+Socket: Socket 1700
+Cache L1 (instructions / data): (80 KB / P-core) (32 KB + 48 KB)
+Cache L2: 1.25 MB / P-core
+Cache L3: 36 MB (shared)
+Memory type: DDR4-3200 or DDR5-4800 SDRAM
+Memory bandwidth: 75 GB/s
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 192 GB
+Historical note:
+14th gen is a minor refresh over 13th gen. Slightly higher clock speeds.
+Architecture and process node are identical.
+Back in the 1990's in the Pentium-1-era it would be just "hidden" refresh,
+or a "minor chip revision", not even called a next-generation core.
+But it's not just a 14th Gen Intel Core, but also a 14th-gen,
+real Intel Architecture if counted since 8086, according to our view.
+Making the chip at >300 watts TDP is little short of insane,
+the TDPs has to go way way lower, probably under 100 watts by default,
+including Turbo boost, and leave higher wattage exploration for over-clockers.
+This TDP may causes both long-term instability *and* also noisy cooling for most average coolers.
+This chip is essentially the equivalent of a factory-overclocked chip. (both the i7 and the i9)
+Core i3 and i5 have more sane defaults, but still a far cry from Apple M4's 20 watts of TDP,
+which is optimal for desktop users in our view.

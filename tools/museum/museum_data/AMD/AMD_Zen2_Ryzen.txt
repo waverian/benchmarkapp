@@ -1,0 +1,23 @@
+Introduced: 2019
+Generation of AMD Architecture : 13
+Architecture / Codename: Zen2 "Matisse"
+KEYWORD_CPU_ARCH_ID: AMD_ZEN2
+Example CPU: AMD Ryzen 9 3950X
+Cores / Threads: 16/32
+Technology node: 7 nm
+Die Size: 2x 74 mm²(CPU) + 124 mm²(IO)
+Transistors: 7.6 billion
+Frequency: 3400-4700 MHz
+Instructions: x86-64. MMX, SSE4.2, AMD-V, AVX2
+TDP: 105 watts (142 watt actual)
+Cache L1: 64 KB = 32 KB + 32 KB (i+d) per core
+Cache L2: 512 KB per core
+Cache L3: 4 MB per core (16 MB per 4-core CCX)
+Socket: AM4
+Memory type: DDR4 SDRAM-1866/2133
+Memory bandwidth: 34.1 GB/s
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 128 GB
+Historic note:
+2nd gen Ryzen was amazing. It blows past Intel's performance where it mattered the most -- in workstation class apps.
+It offered 2x more cores. 16 cores AMD was going against 8 cores from Intel's Core i9 9900K.

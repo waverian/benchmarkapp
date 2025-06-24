@@ -1,0 +1,36 @@
+Introduced: 2000
+Generation of Intel Architecture : 7 (7.1)
+Generation of Intel Core: pre-historic.
+Example: Intel Pentium 4 2000 MHz
+Architecture / Codename: NetBust / Willamette
+KEYWORD_CPU_ARCH_ID: INTEL_PENTIUM4_1GEN_WILLAMETTE
+Cores / Threads: 1/1
+Technology node: 180 nm
+Die Size: 217 mm^2
+Transistors: 42 million
+Frequency: 1300-2000 MHz
+Instructions: x86, MMX, SSE, SSE2
+TDP: ~35-110 Watts
+Socket: Socket 423
+Cache L1 (instructions / data): 8 KB / 8 KB (8 KB for micro-instructions t-cache)
+Cache L2: 256 KB
+Cache L3: -
+Memory type: SDRAM/DDR1/DDR2/RDRAM
+Memory bandwidth: varied.
+Memory Size, Max: 4 GB (64 GB with PAE mode)
+Memory Size, Typical: 64-128 MB; mainly because early models with RDRAM were crazy expensive.
+Historical note:
+Pentium 4 is the next-gen of Intel Architecture.
+In an attempt to increase clock-speeds even faster, Intel has designed a new CPU architecture
+from the ground-up, with very long pipeline.
+It performed well in some workloads including multimedia / video encoding and de-coding, but
+it did poorly with unpredictable code patterns, especially emulation, even slower than the older Pentium III and AMD Athlon in many workloads.
+Because of the long pipeline, Instructions per cycle (IPC), was the lowest in the industry, much under-performing vs.
+both the Pentium III and the Pentium 4. 
+Longer pipelines allows to increase the clock speed, at the cost of power consumption, branch mispredicts and data cache misses, resulting in lower IPC.
+Intel hoped it would reach up to 10 GHz and above, but it never did.
+It was a very power hungry design, unstable to scale, and it did very poorly in laptop-designs.
+Eventually after reaching over 3 GHz, intel realized that the architecture is simply inefficient,
+they abandoned it and replaced it with a Core 2 Duo architecture, based on the Pentium III, not the Pentium 4 !
+Initially it required a very pricey and expensive RDRAM memory, limiting user's appeal, but later 
+it migrated to SDRAM and DDR memory standards.

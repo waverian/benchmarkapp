@@ -1,0 +1,18 @@
+Introduced: 2011
+Generation of Apple Architecture : 5
+Example: Apple A5
+Example products: iPhone 4S, iPad 2
+Architecture / Codename: ARM Cortex A9
+KEYWORD_CPU_ARCH_ID: APPLE_A5
+Cores / Threads: 2/2
+Technology node: 45 nm
+Die Size: 122 mm^2
+Transistors: ? million
+Frequency: 800-1000 MHz
+Instructions: ARMv7, 32-bit, NEON.
+TDP: ~5? Watts
+Cache L1 (instructions / data): 32 KB + 32 KB
+Cache L2: 1 MB
+Cache L3: none
+Historical note:
+Dual-core design. Follow up on the A4.

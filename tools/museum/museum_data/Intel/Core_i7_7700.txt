@@ -1,0 +1,23 @@
+Introduced: 2017.01
+Generation of Intel Architecture : 12
+Generation of Intel Core: 7
+Example: Core i7-7700
+Architecture / Codename: Kaby Lake (Skylake variant)
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_7GEN
+Cores / Threads: 4/8
+Technology node: 14 nm
+Die Size: ~125 mm^2
+Transistors: ~1.75 billion
+Frequency: 3400-4400 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX2.
+TDP: 84 Watts
+Socket: Socket 1151v1
+Cache L1 (instructions / data): (64 KB / core) (32 KB + 32 KB)
+Cache L2: 256 KB / core
+Cache L3: 8 MB (2MB per core, shared)
+Memory type: DDR4 SDRAM
+Memory bandwidth: - GB/s
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 64 GB
+Historical note:
+Kaby Lake is a slightly improved variant of Skylake; A bit higher clocks.

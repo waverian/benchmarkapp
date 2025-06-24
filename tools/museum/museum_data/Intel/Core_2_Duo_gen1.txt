@@ -1,0 +1,31 @@
+Introduced: 2006
+Generation of Intel Architecture : 8 (8.1)
+Generation of Intel Core: 0
+Example: Core 2 Duo E6600 @ 2.40 GHz
+Architecture / Codename: Conroe
+KEYWORD_CPU_ARCH_ID: INTEL_CORE2DUO_1GEN_CONROE
+Cores / Threads: 2/2
+Technology node: 65 nm
+Die Size: 143 mm^2
+Transistors: 291 million
+Frequency: 1866-2933 MHz
+Instructions: x86-64, MMX, SSE3+/(SSSE3), VT-x.
+TDP: 65 Watts
+Socket: Socket 775
+Cache L1 (instructions / data): (64 KB / core) (32 KB + 32 KB)
+Cache L2: 4 MB total; 2 MB / core 
+Cache L3: -
+Memory type: DDR2/DDR3 SDRAM
+Memory bandwidth: 25.6 GB/s
+Memory Size, Typical: 1-4 GB
+Memory Size, Max: 8 GB (for most common mainboards)
+Historical note:
+Conroe. The next-gen of Intel Architecture. 
+First Intel processor to fix the short-comings of an ultra-long Pentium 4 pipeline.
+this pipeline was both slow for many workloads, and power-hungry.
+This is a evolution of the Pentium III (and Pentium M), while discardind the Pentium 4
+architecture.
+
+Variants:
+Core 2 Quad Q6000 series "Kentsfield" have 4-cores. Double the cores, transistors and the TDP to 130 Watts.
+Some models have halved L2 cache, and/or disabled VT-x virtualization.

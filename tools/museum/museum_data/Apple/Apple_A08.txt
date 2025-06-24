@@ -1,0 +1,26 @@
+Introduced: 2014
+Generation of Apple Architecture : 8
+Example: Apple A8
+Example products: iPhone 6, iPad Air 2 (A8X)
+Architecture / Codename: Typhoon
+KEYWORD_CPU_ARCH_ID: APPLE_A8
+Cores / Threads: 2/2 (3/3 for Apple A8X)
+Technology node: 20 nm
+Die Size: 89 mm^2
+Transistors: ~2 billion
+Frequency: 1400 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~5? Watts
+Cache L1 (instructions / data): 64 KB + 64 KB
+Cache L2: 1 MB
+Cache L3: 4 MB
+Cache Total (ex.L1): 5 MB
+Memory type: ?
+Memory bandwidth: ?
+Memory Size, Max: ?
+Historical note:
+This CPU was so fast that it was coming close to Intel Core 2 Duo processors from year 2006.
+Core 2 Duo, even in 2014, had enough performance oomph to push most common desktop workloads, websites, and video.
+At this generation I figured out, that it may be possible to build a desktop PC using mobile chips from an iPhone, and expect relatively 'okay-ish' performance for office and web tasks.
+This dream came true with the Apple M1 triumph in 2020, 6 years later!
+Apple A8X, a variant with triple-core design was used in iPad Air 2.

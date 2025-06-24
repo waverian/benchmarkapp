@@ -1,0 +1,18 @@
+Introduced: 2015
+Generation of Apple Architecture : 9
+Example: Apple A9
+Example products: iPhone 6S
+Architecture / Codename: Twister
+KEYWORD_CPU_ARCH_ID: APPLE_A9
+Cores / Threads: 2/2 (3/3 for A9X chip for iPad)
+Technology node: 14 nm
+Die Size: 96 mm^2
+Transistors: ~3 billion
+Frequency: 1400 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~5? Watts
+Cache L1 (instructions / data): 64 KB + 64 KB
+Cache L2: 1 MB
+Cache L3: 4 MB
+Historical note:
+"Mister Twister". A new-generation of in-house Apple silicon.

@@ -1,0 +1,32 @@
+Introduced: 1993
+Generation of Intel Architecture : 5
+Generation of Intel Core: pre-historic.
+Example: Pentium-100
+Architecture / Codename: P5 aka i586 / P54C
+KEYWORD_CPU_ARCH_ID: INTEL_PENTIUM1
+Cores / Threads: 1/1
+Technology node: 800 nm (P5) (600 nm and 350 nm for newer models)
+Die Size: ??? mm^2
+Transistors: 3.1 million
+Frequency: 66-200 MHz
+Instructions: x86. 32-bit.
+TDP: ~10? Watts
+Socket: Socket 7 (also in Super-Socket 7)
+Cache L1 (instructions / data): 16 KB (8+8)
+Cache L2: up to 1 MB (on mainboard)
+Cache L3: -
+Memory type: EDO-DRAM or SDRAM (on some models)
+Memory bandwidth: 
+Memory Size, Typical: 8-16 MB
+Memory Size, Max: theoretical. max = 4 GB.
+Historical note:
+5th gen Intel architecture. Pentium era.
+First Super-scalar architecture, when a CPU can execute up-to 2 cycles per second,
+assuming they don't have dependency on each other. The CPU decoder and issuer
+can dispatch and execute commands in parallel.
+
+While other vendors could copy and clone Intel 386/486 chips due to Intel agreement with IBM, nobody 
+could clone the Pentium, meaning that the competition had to develop a new architecture from the ground-up.
+
+Variants:
+Pentium 66-200 MHz.

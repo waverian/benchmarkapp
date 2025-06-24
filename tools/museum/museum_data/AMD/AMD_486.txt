@@ -1,0 +1,21 @@
+Introduced: 1993
+Generation of AMD Architecture : 4
+Example CPU: AMD Am486 SX2-66
+Architecture / Codename: P4
+KEYWORD_CPU_ARCH_ID: AMD_486
+Cores / Threads: 1
+Technology node: 500 nm(?)
+Die Size: ?
+Transistors: 1.25 million
+Frequency: 25-120 MHz
+Instructions: x86.
+TDP: ~10 watt?
+Cache L1: 8 KB (shared between instructions+data)
+Cache L2: up to 512 KB on the main-board.
+Cache L3: -
+Cache Total (ex.L1): -
+Memory type: Fast page mode DRAM (FPM)
+Memory bandwidth: -
+Memory Size, Max: -
+Historic note:
+Intel 486 socket-compatible processor, and with a similar performance. But came out much later than Intel design.

@@ -1,0 +1,13 @@
+Introduced: 2023
+Generation of Raspberry Pi : 5
+Example: Raspberry Pi 5 Model B
+Chip: Broadcom BCM2712
+Architecture / Codename: ARM Cortex A76
+KEYWORD_CPU_ARCH_ID: RPI_5
+Cores / Threads: 4/4
+Technology node: 16 nm
+Frequency: 2400 MHz
+Instructions: ARMv8, 64-bit, NEON
+TDP: ~7 Watts
+Historical note:
+5th gen hobby computer. Much faster chip than previous generations.

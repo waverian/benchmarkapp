@@ -1,0 +1,30 @@
+Introduced: 1995
+Generation of AMD Architecture : 4.5
+Example CPU: AMD Am5x86 PR-75
+Architecture / Codename: X5
+KEYWORD_CPU_ARCH_ID: AMD_586
+Cores / Threads: 1
+Technology node: 500 nm(?)
+Die Size: ?
+Transistors: 1.6 million
+Frequency: 133 MHz (PR75)
+Instructions: x86.
+TDP: ~15 watt?
+Cache L1: 16 KB (shared between instructions+data)
+Cache L2: up to 512 KB on the main-board.
+Cache L3: -
+Cache Total (ex.L1): -
+Memory type: Fast page mode DRAM (FPM)
+Memory bandwidth: -
+Memory Size, Max: -
+Historic note:
+Intel 486 socket-compatible processor. Doubled cache memory.
+This CPU introduces the so-called "Pentium Rating" PR-75 indicates that this 133 MHz chip can compete against Intel Pentium 75 MHz.
+Basically a fast version of the 486 architecture, marketed as a competitor to the Intel's Pentium, a true 586 chip.
+A true 586-class chip must include:
+1. a much faster internal data bus (66 MHz vs 33 MHz on the 486), 
+2. faster memory (EDO RAM vs FPM RAM)
+3. faster device bus (PCI vs ISA)
+4. L1 cache must be devided into separate instructions + data. (otherwise there is high latency)
+AMD Am5x86 fails on all 4 of those points.
+Therefore we can conclude that the AMD Am5x86 is really a 486 architecture inside, repainted as new.

@@ -1,0 +1,40 @@
+Introduced: 2020
+Generation of Apple Architecture : 14
+Example: Apple M1
+Example products: Macbook Air M1 / Mac Mini M1
+Architecture / Codename: Firestorm + Icestorm
+KEYWORD_CPU_ARCH_ID: APPLE_M1
+Cores / Threads: 4P+4e (4 Performance Cores + 4 efficiency cores)
+Technology node: 5 nm (TSMC N5)
+Die Size: 119 mm^2
+Transistors: 16 billion
+Frequency: 3200 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~15 Watts
+Cache L1 (instructions / data): 192 KB + 128 KB /P-core
+Cache L2: 12 MB /P-cluster
+Cache L3: -
+Memory type: LPDDR4X
+Memory bandwidth: 68.3 GB/s; (up to 819.2 GB/s for M1 Ultra)
+Memory Size, Max: 16 GB (up to 128 GB for M1 Ultra)
+Historical note:
+This is the historic moment ! Apple's 1st desktop CPU ! The M1 !
+Built on the same Apple A14 Performance-cores (Firestorm), it took the world by storm !
+It beats the competition both on single-thread performance as well as 
+performance per watt. Two very important metrics.
+Energy-efficient cores (E-cores) are based on "Icestorm" microarchitecture.
+First time in the world one can build a very thin laptop, 
+that works 15 hours on a battery,
+and delivers amazing Core i7-like performance levels and is completely silent !
+Such a combination has NEVER existed before and was considered impossible until now !
+Welcome to the ZERO noise computing ! Macbook Air M1, 2020 !
+Probably the most unique and most amazing laptop ever built.
+(despite it's lack of I/O, but that is a story for another day...)
+Later variants include The M1 Pro, M1 Max and M1 Ultra as it's big brothers.
+
+Variants:
+A14 - 6 cores (2P+4e); 4 GPU cores; mem.bandwidth = 34.1 GB/sec; 11.8 billion transistors
+M1 - 8 cores (4P+4e); 7-8 GPU cores; mem.bandwidth = 68.3 GB/sec; 16 billion transistors
+M1 Pro - 10 cores (8P+2e); 14-16 GPU cores; mem.bandwidth = 204.8 GB/sec; 33.7 billion transistors
+M1 Max - 10 cores (8P+2e); 24-32 GPU cores; mem.bandwidth = 409.6 GB/sec; 57 billion transistors
+M1 Ultra - 20 cores (16P+4e); 48-64 GPU cores; mem.bandwidth = 819.2 GB/sec; 114 billion transistors

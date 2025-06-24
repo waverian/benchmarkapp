@@ -13,17 +13,24 @@ from typing import Tuple
 NSURL = autoclass('NSURL')
 UIApplication = autoclass('UIApplication')
 UIDevice = autoclass('UIDevice')
+UIActivityViewController = autoclass('UIActivityViewController')
+sharedApplication = UIApplication.sharedApplication()
+UIcontroller = sharedApplication.keyWindow.rootViewController()
+UIView = UIcontroller.view()
+
 currentDevice = UIDevice.currentDevice()
 iPhone = currentDevice.userInterfaceIdiom == 0
 iPad = currentDevice.userInterfaceIdiom == 1
-sharedApplication = UIApplication.sharedApplication()
+if iPad:
+    val = NSRect()
+    UINavigationController = autoclass('UINavigationController')
+    uin = UINavigationController.alloc()
 
 class IosShare(Share):
 
     def _write_data_to_file(self, data, out_file):
-        with open(out_file, 'w') as ofile:
+        with open(out_file, 'wb') as ofile:
             ofile.write(data)
-
 
     def _share_text(self, text: str, title: str,
         size: Tuple[int, int]=(32, 32),
@@ -40,37 +47,43 @@ class IosShare(Share):
 
         if not data:
             return
-        
+
         if filename:
             out_file = storagepath.get_home_dir() + '/Documents/' + filename
             self._write_data_to_file(data, out_file)
             URL = NSURL.fileURLWithPath_(out_file)
             data = URL
 
-        import gc 
+        import gc
         gc.collect()
 
-        UIActivityViewController = autoclass('UIActivityViewController')
         UIActivityViewController_instance = UIActivityViewController.alloc().init()
         activityViewController = UIActivityViewController_instance.initWithActivityItems_applicationActivities_([data], None)
-        UIcontroller = sharedApplication.keyWindow.rootViewController()
-            
 
         if iPad:
-            UIView = UIcontroller.view()
-            UIActivityViewController_instance.modalPresentationStyle = 9# 9  is popover
-            UIActivityViewController_instance.preferredContentSize = NSSize(0,0)
-            pc = UIActivityViewController_instance.popoverPresentationController()
-            pc.permittedArrowDirections = arrow_direction # 0 means no direction
+            from kivy.app import App
+            app = App.get_running_app()
+
+            # avc = UINavigationController.alloc().initWithRootViewController_(activityViewController)
+            # print(dir(avc))
+            # sheet = avc.sheetPresentationController()
+            # print(dir(sheet))
+            # sheet._detents = 
+            activityViewController.modalPresentationStyle = 9# 9  is popover
+            # activityViewController.preferredContentSize = val.size
+            pc = activityViewController.popoverPresentationController()
+            pc.permittedArrowDirections = 0
             pc.sourceView = UIView
-            val = NSRect()
-            val.size = NSSize(*size)# Apsect ration?
-            val.origin = NSPoint(*pos)
-            pc.sourceRect = val
-        
-        UIcontroller.presentViewController_animated_completion_(activityViewController, True, None)
+            pc.sourceRect.origin = NSPoint(*pos)
+            pc.sourceRect.size = NSSize(*size)
+            UIcontroller.presentViewController_animated_completion_(activityViewController, True, None)
+            # avc.release()
+            activityViewController.release()
+            UIActivityViewController_instance.release()
+        else:
+            UIcontroller.presentViewController_animated_completion_(activityViewController, True, None)
         gc.collect()
-        
+
 
 
 def instance():

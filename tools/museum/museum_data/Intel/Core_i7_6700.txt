@@ -1,0 +1,25 @@
+Introduced: 2015
+Generation of Intel Architecture : 12
+Generation of Intel Core: 6
+Example: Core i7-6700
+Architecture / Codename: Skylake
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_6GEN
+Cores / Threads: 4/8
+Technology node: 14 nm
+Die Size: ~125 mm^2
+Transistors: ~1.75 billion
+Frequency: 3400-4200 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX2.
+TDP: 84 Watts
+Socket: Socket 1151v1
+Cache L1 (instructions / data): (64 KB/core) (32 KB + 32 KB)
+Cache L2: 256 KB/core
+Cache L3: 8 MB (2MB per core, shared)
+Memory type: DDR4 SDRAM
+Memory bandwidth: - GB/s
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 64 GB
+Historical note:
+Skylake. The first mass-production 14nm Intel Architecture for the desktop.
+Also moved to DDR4 memory, and a new socket.
+Performance-wise it is a slightly improved version of Haswell, only a few % faster.

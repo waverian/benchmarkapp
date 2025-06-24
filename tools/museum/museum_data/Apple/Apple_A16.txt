@@ -1,0 +1,21 @@
+Introduced: 2022
+Generation of Apple Architecture : 16
+Example: Apple A16 "Bionic"
+Example products: iPhone 14 Pro / Pro Max
+Architecture / Codename: Everest + Sawtooth
+KEYWORD_CPU_ARCH_ID: APPLE_A16
+Cores / Threads: 2P+4e (2 Performance Cores + 4 efficiency cores)
+Technology node: 4 nm (TSMC N4P)
+Die Size: 121 mm2
+Transistors: 16 billion
+Frequency: 3400 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~8 Watts
+Cache L1 (instructions / data): 192 KB + 128 KB /P-core
+Cache L2: 16 MB
+Cache L3: -
+Memory type: LPDDR4X
+Memory bandwidth:
+Memory Size, Max: 6 GB
+Historical note:
+Seems like a minor speed up vs the A15 chip.

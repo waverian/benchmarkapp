@@ -1,0 +1,21 @@
+Introduced: 2013
+Generation of Apple Architecture : 7
+Example: Apple A7
+Example products: iPhone 5S, iPad Air 1
+Architecture / Codename: Cyclone
+KEYWORD_CPU_ARCH_ID: APPLE_A7
+Cores / Threads: 2/2
+Technology node: 28 nm
+Die Size: 102 mm^2
+Transistors: ~1 billion
+Frequency: 1300 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~5? Watts
+Cache L1 (instructions / data): 64 KB + 64 KB
+Cache L2: 1 MB
+Cache L3: 4 MB
+Historical note:
+Apple has shocked the world by introducing the world's first 64-bit smartphone
+nearly two years ahead of the competition (Samsung Galaxy S6, in 2015).
+This was the 1st big fruit from the fruit company's in-house silicon team.
+World's 1st ARMv8 chip.

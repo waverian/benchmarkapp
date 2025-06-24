@@ -1,0 +1,27 @@
+Introduced: 2011.02
+Generation of Intel Architecture : 10
+Generation of Intel Core: 2
+Example: Core i7-2600
+Architecture / Codename: Sandy Bridge
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_2GEN
+Cores / Threads: 4/8
+Technology node: 32 nm
+Die Size: 216 mm²
+Transistors: 1.16 billion
+Frequency: 3400-3800 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX.
+TDP: 95 Watts
+Socket: Socket 1155
+Cache L1 (instructions / data): (64 KB/core) (32 KB + 32 KB)
+Cache L2: 256 KB / core
+Cache L3: 8 MB (2MB per core, shared)
+Memory type: DDR3 SDRAM
+Memory bandwidth: 21 GB/s
+Memory Size, Typical: 8-16 GB
+Memory Size, Max: 32 GB
+Historical note:
+This CPU was so much faster than Nehalem, and Intel progress were to slow down for the next-decade
+ so much so that people who bought this CPU made the purchase-of-the-decade !
+Meaning buying one computer and no need to upgrade for a decade, because it's performance was still adequate for tasks a decade later in 2021 !
+This was unheard of for people in the 90's,
+when people were getting +300% performance boost was common every 3-4 years !

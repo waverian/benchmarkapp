@@ -1,0 +1,26 @@
+Introduced: 1997.01
+Generation of Intel Architecture : 5.5
+Generation of Intel Core: pre-historic.
+Example: Pentium MMX 200 MHz
+Architecture / Codename: P55C aka i586
+KEYWORD_CPU_ARCH_ID: INTEL_PENTIUM1_MMX
+Cores / Threads: 1/1
+Technology node: 280 nm (P55C)
+Die Size: ??? mm^2
+Transistors: 4.5 million
+Frequency: 166-233 MHz
+Instructions: x86. 32-bit. MMX.
+TDP: ~13-17 Watts
+Socket: Socket 7 (also in Super-Socket 7)
+Cache L1 (instructions / data): 32 KB (16+16)
+Cache L2: up to 1 MB (on mainboard)
+Cache L3: -
+Memory type: EDO-DRAM or SDRAM (on some models)
+Memory bandwidth: 
+Memory Size, Typical: 16-32 MB
+Memory Size, Max: theoretical. max = 4 GB.
+Historical note:
+Adds MMX technology and double L1 cache memory.
+
+Variants:
+Pentium MMX 166-233 MHz on desktoplis. Some mobile versions could go even as high as 300 MHz.

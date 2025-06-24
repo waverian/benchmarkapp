@@ -1,0 +1,10 @@
+setuptools==71.1.0
+git+https://github.com/kivy/buildozer.git@master
+Cython==0.29.37
+certifi==2020.6.20
+pillow==10.4.0
+# These are needed for kivy-ios
+coverage==6.2
+pbxproj==3.5.0
+cookiecutter==2.1.1
+kivy==2.3.1

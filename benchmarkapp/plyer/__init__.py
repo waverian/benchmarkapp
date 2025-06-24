@@ -10,7 +10,7 @@ __all__ = (
     'flash', 'gps', 'gravity', 'gyroscope', 'humidity', 'irblaster',
     'keystore', 'light', 'notification', 'orientation', 'processors',
     'proximity', 'screenshot', 'share', 'sms', 'spatialorientation', 'storagepath',
-    'stt', 'temperature', 'tts', 'uniqueid', 'vibrator', 'wifi', 'devicename'
+    'stt', 'sysinfo', 'temperature', 'tts', 'uniqueid', 'vibrator', 'wifi', 'devicename'
 )
 
 __version__ = '2.1.0.dev0'
@@ -122,6 +122,9 @@ screenshot = Proxy('screenshot', facades.Screenshot)
 
 #: Share proxy to :class:`plyer.facades.Share`
 share = Proxy('share', facades.Share)
+
+#: SysInfo proxy to :class:`plyer.facades.SysInfo`
+sysinfo = Proxy('sysinfo', facades.Sysinfo)
 
 #: devicename proxy to :class:`plyer.facades.DeviceName`
 devicename = Proxy('devicename', facades.DeviceName)

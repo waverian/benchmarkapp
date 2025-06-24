@@ -1,0 +1,9 @@
+kivy==2.3.1
+#python-gettext==4.0
+sentry_sdk==1.17.0
+natsort==8.4.0
+#pyobjus==1.2.3; sys_platform == 'darwin'
+
+# Kivy-Garden downloads requests 2.30.0, which depends on urllib, which has dropped support for OpenSSL 1.0
+requests==2.29.0; sys_platform == 'linux'
+urllib3==1.26.16; sys_platform == 'linux'

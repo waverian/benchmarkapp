@@ -1,0 +1,23 @@
+Introduced: 2020
+Generation of Intel Architecture : 12
+Generation of Intel Core: 10
+Example: Core i9-10900K
+Architecture / Codename: Comet Lake (Skylake variant)
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_10GEN
+Cores / Threads: 10/20
+Technology node: 14 nm
+Die Size: ~200 mm²
+Transistors: approx ~5 billion.
+Frequency: 3400-5300 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX2.
+TDP: 125 Watts
+Socket: Socket 1200
+Cache L1 (instructions / data): (64 KB / core) (32 KB + 32 KB)
+Cache L2: 256 KB / core
+Cache L3: 20 MB (2MB per core, shared)
+Memory type: DDR4-2933 SDRAM
+Memory bandwidth: 45.8 GB/s
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 128 GB
+Historical note:
+This generation Intel decided to upgrade core count to 10, pushing performance upwards even further.

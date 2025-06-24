@@ -1,0 +1,17 @@
+Introduced: 2019
+Generation of Apple Architecture : 13
+Example: Apple A13 "Bionic"
+Example products: iPhone 11
+Architecture / Codename: Lightning + Thunder
+KEYWORD_CPU_ARCH_ID: APPLE_A13
+Cores / Threads: 2C+4c (2 Big Cores + 4 small cores)
+Technology node: 7 nm
+Die Size: 98.48 mm^2
+Transistors: 8.5 billion
+Frequency: 2650 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~5? Watts
+Cache L1 (instructions / data): 128 KB + 128 KB
+Cache L2: 8 MB
+Cache L3: -
+Historical note:

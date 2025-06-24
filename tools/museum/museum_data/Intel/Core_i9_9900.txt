@@ -1,0 +1,24 @@
+Introduced: 2018
+Generation of Intel Architecture : 12
+Generation of Intel Core: 9
+Example: Core i9-9900K
+Architecture / Codename: Coffee Lake refresh (Skylake variant)
+KEYWORD_CPU_ARCH_ID: INTEL_CORE_9GEN
+Cores / Threads: 8/16
+Technology node: 14 nm
+Die Size: 177 mm^2
+Transistors: approx ~4 billion.
+Frequency: 3400-5000 MHz
+Instructions: x86-64, MMX, SSE4.2, VT-x, AES, AVX2.
+TDP: 95 Watts
+Socket: Socket 1151v2
+Cache L1 (instructions / data): (64 KB / core) (32 KB + 32 KB)
+Cache L2: 256 KB / core
+Cache L3: 16 MB (2MB per core, shared)
+Memory type: DDR4-2666 SDRAM
+Memory bandwidth: 41.6 GB/s
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 128 GB
+Historical note:
+This generation Intel decided to upgrade core count to 8, pushing performance upwards even further.
+This CPU hit the 5 GHz Mark !

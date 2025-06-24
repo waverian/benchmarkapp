@@ -1,0 +1,22 @@
+Introduced: 2023
+Generation of Apple Architecture : 17
+Example: Apple A17 Pro
+Example products: iPhone 15 Pro / Pro Max
+Architecture / Codename:
+KEYWORD_CPU_ARCH_ID: APPLE_A17
+Cores / Threads: 2P+4e (2 Performance Cores + 4 efficiency cores)
+Technology node: 3 nm (TSMC N3)
+Die Size: 104 mm2
+Transistors: ~19 billion estimated.
+Frequency: 3800 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~8 Watts
+Cache L1 (instructions / data): 192 KB + 128 KB /P-core
+Cache L2: 16 MB
+Cache L3: -
+Memory type: LPDDR5 ?
+Memory bandwidth:
+Memory Size, Max: 8 GB
+Historical note:
+Like the M3, this is a 9-issue P-core, wider that previously used 8-issue cores.
+GPU got a 3D ray-tracing and a AV1 video decoder, but it is outside of our scope.

@@ -1,0 +1,27 @@
+Introduced: 2020
+Generation of AMD Architecture : 14
+Architecture / Codename: Zen3 "Vermeer"
+KEYWORD_CPU_ARCH_ID: AMD_ZEN3
+Example CPU: AMD Ryzen 9 5950X
+Cores / Threads: 16/32
+Technology node: 7 nm
+Die Size: 2x 74 mm²(CPU) + 124 mm²(IO)
+Transistors: 8.3 billion
+Frequency: 3400-4900 MHz
+Instructions: x86-64. MMX, SSE4.2, AMD-V, AVX2
+TDP: 105 watts (142 watt actual)
+Cache L1: 64 KB = 32 KB + 32 KB (i+d)
+Cache L2: 512 KB per core
+Cache L3: 4 MB per core (16 MB per 4-core CCX)
+Socket: AM4
+Memory type: DDR4 SDRAM-1866/2133
+Memory bandwidth: 34.1 GB/s
+Memory Size, Typical: 16-32 GB
+Memory Size, Max: 128 GB
+Historic note:
+Zen 3 is really a much-faster, desktop-optmized, refined architecture delivered from Zen 2.
+Zen 3 is only slightly faster in multi-core (10%), but significantly faster in single-core (20%).
+Zen 3 can utilize almost all the execution engines from a single-core apps, while Zen 2 under-utilized those,
+so to extract max performance from zen 2, it was necessary to write multi-threaded code.
+You can view Zen 3 as a Gamer's CPU, where AMD Ryzen 5000 series finally closed the gap against Intel's Core i9 9900K CPU
+when it comes to gaming, and it performs much faster in workstation-class apps, due to 2x more cores.

@@ -1,0 +1,27 @@
+Introduced: 2005
+Generation of Intel Architecture : 7
+Generation of Intel Core: 0
+Example: Core Duo T2600 @ 2.16 GHz
+Architecture / Codename: Yonah
+KEYWORD_CPU_ARCH_ID: INTEL_CORE1DUO
+Cores / Threads: 2/2
+Technology node: 65 nm
+Die Size: 90 mm²
+Transistors: 151 million
+Frequency: 1600-2333 MHz
+Instructions: x86, MMX, SSE3, VT-x.
+TDP: ~30 Watts
+Socket: Socket 479
+Cache L1 (instructions / data): (64 KB / core) (32 KB + 32 KB)
+Cache L2: 2 MB total; 1 MB / core
+Cache L3: -
+Memory type: DDR1 SDRAM
+Memory bandwidth: 
+Memory Size, Typical: 1-2 GB
+Memory Size, Max: 4 GB (for most common mainboards)
+Historical note:
+Last gen of 32-bit processor architecture. Direct descendent of the Pentium M "Centrino".
+The only 32-bit processor in the world, that also supports hardware vitualization, VT-x.
+
+Variants:
+Core Solo -- a single-core version also exists.

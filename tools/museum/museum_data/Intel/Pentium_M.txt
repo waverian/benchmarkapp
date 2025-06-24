@@ -1,0 +1,42 @@
+Introduced: 2003
+Generation of Intel Architecture : 7
+Generation of Intel Core: pre-historic.
+Example: Intel Pentium M 1700 MHz
+Architecture / Codename: Banias / Dothan / Centrino
+KEYWORD_CPU_ARCH_ID: INTEL_PENTIUMM
+Cores / Threads: 1/1
+Technology node: 130 nm for Banias; 90 nm for Dothan
+Die Size: 83 mm^2 for Banias; 87 mm^2 for Dothan.
+Transistors: 77 million for Banias; 140 million for Dothan.
+Frequency: 1300-2000+ MHz
+Instructions: x86, MMX, SSE, SSE2.
+TDP: ~20-30 Watts
+Socket: Socket 479
+Cache L1 (instructions / data): 32 KB / 32 KB (64 KB)
+Cache L2: 1 MB for Banias; 2 MB for Dothan.
+Cache L3: -
+Memory type: DDR1
+Memory bandwidth: 
+Memory Size, Max: 2 GB
+Memory Size, Typical: 256-2048 MB
+Historical note:
+Pentium M is an alternative upgrade-path as the next-gen of Intel Architecture, instead of the Pentium 4.
+Based on the Pentium III, it extends the arch with new instructions (SSE2),
+new bus, improved branch prediction and bigger L1+ L2 caches.
+Basically this works as a much improved Pentium III, 
+without the power-hungry problems of the Pentium 4.
+
+It was sold mostly on laptops, marketed as an "Intel Centrino" platforms, together with a Wi-Fi chip !
+Until 2003 "Centrino", most of the laptops had no Wi-Fi chip and were connected to the Internet via wired LAN RJ-45 Ethernet cable.
+
+Basically during this age, laptops were using the Pentium M "Centrino", while desktops were using the "Pentium 4".
+Totally different chips with totally different architecture and characteristics.
+
+Compared to the Pentium 4, the Pentium M had no hyper-threading, had a much lower clock-speed, but much higher IPC (instructions-per-clock), and better power efficienty (amount of work per watt of power).
+Pentium M achieved similar performance to the Pentium 4, in some workloads even out-performing it, while using only 1/3rd of the power !
+At this point it became obvious, that the Pentium 4 is hitting a dead-end, and must be replaced, even on the desktop !
+
+Pentium M, like the previous Pentium III were single-core, single-threaded design running 32-bit x86 code.
+
+Variants:
+Dothan is a 2nd-gen Pentium M, doubles transistors and L2 cache, and reduces node to 90 nm, introduced in 2004.

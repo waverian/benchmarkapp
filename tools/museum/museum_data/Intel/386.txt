@@ -1,0 +1,34 @@
+Introduced: 1985
+Generation of Intel Architecture : 3
+Generation of Intel Core: pre-historic.
+Example: 386DX-16 MHz
+Architecture / Codename: i386
+KEYWORD_CPU_ARCH_ID: INTEL_386
+Cores / Threads: 1/1
+Technology node: 1500 nm
+Die Size: 104 mm²
+Transistors: 275,000
+Frequency: 12.5-33 MHz; 16 MHz and 20 MHz were common.
+Instructions: x86. 32-bit.
+TDP: ~8 Watts est.
+Cache L1: none
+Cache L2: none (8 KB optional on mainboard; called "external cache")
+Cache L3: -
+Memory type: FPM-DRAM / EDO-DRAM
+Memory bandwidth: 
+Memory Size, typical: 2-8 MB (and around 256K-512K video memory; limiting VGA resolution)
+Memory Size, Max:
+Historical note:
+3rd gen Intel architecture.
+It was a ground-breaking revolution at the time;
+It both allowed 32-bit programs to run, but was also much faster than the previous-gen 286 chips at executing 16-bit (DOS) programs.
+The first Intel 32-bit processor introduced in 1985.
+optional separate 387 chip for FPU / floating point unit had to be purchased separately both for SX and DX series.
+optional cache chip on the mainboard had to be purchased separately.
+The VGA cards on those systems also had very little memory, which limited the 2D resolution
+to a very low value like 640x480 or even 320x240 on some PCs, at 256-colors.
+Bus was running at CPU speed, so 16-33 MHz typical.
+
+Variants:
+Data width    386DX	32 bits (386SX: 16 bits)
+Address width 386DX	32 bits (386SX: 24 bits)

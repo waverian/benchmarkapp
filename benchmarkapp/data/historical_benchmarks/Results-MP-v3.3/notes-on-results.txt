@@ -1,0 +1,38 @@
+Here we have a summary of entire human history of CPU progress, like a in museum.
+
+Intel:
+486
+Pentium 1
+Pentium 1-MMX
+Pentium II
+Pentium III
+Pentium 4
+Pentium M (Centrino)
+Core 1 Duo *missing piece from my collection... the missing link between the older Pentium III / M and Core 2 Duo.
+Core 2 Duo
+---
+Core i7 870  - 1st gen 
+Core i7 2600 - 2nd gen <-- here we have a massive drop in optimized ratio. Why ? Because the base score is 
+Core i7 3770 - 3rd gen *very similar to 2nd gen; missing.
+Core i7 4770 - 4th gen
+Core i7 5600U- 5th gen *missing from the hi-end desktop lineup; mostly mobile generation for laptops.
+Core i7 6700 - 6th gen
+Core i7 7700 - 7th gen
+Core i7 8700 - 8th gen
+Core i9 9900K- 9th gen
+Core i9 10900K- 10th gen
+Core i9 11900K- 11th gen
+Core i9 12900K- 12th gen
+
+
+Curious:
+Core i7 870  - 1st gen 
+Core i7 2600 - 2nd gen <-- here we have a massive drop in optimized ratio. 
+Why ? Because the base score is so much higher. Basically it can predict
+*and* execute speculative code so much better, that it is less dependent on code optimizations.
+Meaning that
+
+Intel Xeons are based on core-i7 design, either directly or indirectly.
+
+Where is Core i7 5700 ? missing ... because 14nm factory was delayed, and so intel decided to skip
+and went to 6th gen on the desktop.

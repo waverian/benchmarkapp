@@ -1,0 +1,23 @@
+Introduced: 2010
+Generation of Apple Architecture : 4
+Example: Apple A4
+Example products: iPhone 4, original iPad 1
+Architecture / Codename: ARM Cortex A8
+KEYWORD_CPU_ARCH_ID: APPLE_A4
+Cores / Threads: 1/1
+Technology node: 45 nm
+Die Size: 53.3 mm2
+Transistors: 149 million
+Frequency: 800-1000 MHz
+Instructions: ARMv7, 32-bit, NEON.
+TDP: ~5? Watts
+Cache L1 (instructions / data): 32 KB + 32 KB
+Cache L2: 512 KB
+Cache L3: none
+Cache Total (ex.L1): 0.5 MB
+Memory type: ?
+Memory bandwidth: ?
+Memory Size, Max: ?
+Historical note:
+1st gen of Apple Silicon. Apple decided to design it's own chips.
+A Big gamble, that paid off Big time a decade later with the Apple M1 triumph.

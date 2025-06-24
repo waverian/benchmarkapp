@@ -65,6 +65,9 @@ class MacFileChooser:
                 panel.setAllowsMultipleSelection_(True)
         elif self.mode == "save":
             panel = NSSavePanel.savePanel()
+            filename = self.path.split('/')[-1]
+            panel.setNameFieldLabel_("Save As:")
+            panel.setNameFieldStringValue_(filename)
         else:
             assert False, self.mode
 

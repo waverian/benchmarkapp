@@ -1,0 +1,19 @@
+Generation of AMD Architecture :    7.1
+Architecture / Codename:    K7, Athlon, "Thunderbird"
+Cores / Threads:    1
+Technology node:    180 nm
+Die Size:    ?
+Transistors:    37 million
+Introduced:    2000
+Frequency:    800-1400 MHz
+Instructions:    x86. MMX. 3Dnow!
+TDP:    ~65 watt?
+Cache L1:    64 KB = 32 KB + 32 KB (i+d)
+Cache L2:    256 KB, L2 cache works at CPU speed.
+Cache L3:    -
+Cache Total (ex.L1):    -
+Memory type:    SDRAM-100/133 MHz
+Memory bandwidth:    ~1.0 GB/s
+Memory Size, Max:    1 GB (common was 128 MB)
+Historical Note: 
+

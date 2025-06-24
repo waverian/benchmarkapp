@@ -1,0 +1,6 @@
+pillow==10.4.0
+PyInstaller==6.3.0
+docopt==0.6.2
+jinja2==3.1.4
+cython==3.0.10
+cpufeature==0.2.0

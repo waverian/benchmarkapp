@@ -1,0 +1,16 @@
+Introduced: 2012
+Generation of Raspberry Pi : 1
+Example: Raspberry Pi 1 Model B
+Chip: Broadcom BCM2835
+Architecture / Codename: ARM11
+KEYWORD_CPU_ARCH_ID: RPI_1
+Cores / Threads: 1/1
+Technology node: 40 nm
+Frequency: 700-1000 MHz (default = 700)
+Instructions: ARMv6, 32-bit
+TDP: ~3 Watts
+Historical note:
+1st gen hobby computer. For Linux-hobbyists, students and electronic engineers.
+Entire series was an amazing success and sold by the truck-load.
+Most popular British computer ever made !
+This model even has a physical analog TV-out for old televisions from the 1990's !

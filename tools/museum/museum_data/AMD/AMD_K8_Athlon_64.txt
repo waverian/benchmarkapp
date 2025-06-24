@@ -1,0 +1,26 @@
+Introduced: 2003
+Generation of AMD Architecture : 8
+Example: AMD Athlon 64 3000+ @ 2000 MHz
+Architecture / Codename: K8 (Newcastle / and others...)
+KEYWORD_CPU_ARCH_ID: AMD_ATHLON64
+Cores / Threads: 1
+Technology node: 130 nm
+Die Size: 144 mm²
+Transistors: 69 million
+Frequency: 1800-2400 MHz
+Instructions: x86-64. MMX, 3Dnow!, SSE, SSE2.
+TDP: 89 watts
+Cache L1: 128 KB = 64 KB + 64 KB (i+d)
+Cache L2: 512 KB (for Newcastle; some other models had 1 MB cache)
+Cache L3: -
+Cache Total (ex.L1): -
+Socket: 754 (Clawhammer / Newcastle) and 939 (for newer models)
+Memory type: DDR SDRAM-200/266 MHz
+Memory bandwidth: ~2.0 GB/s
+Memory Size, Typical: 128-512 MB
+Memory Size, Max: -
+Historic note:
+World's first 64-bit capable PC !
+First common processor with On-die memory controller !
+Socket 939 models offered dual memory controllers.
+TDP keeps going up.

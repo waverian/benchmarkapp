@@ -1,0 +1,25 @@
+Introduced: 2011
+Generation of AMD Architecture : 11
+Example: AMD FX-8150
+Architecture / Codename: Zambezi / 15h "Bulldozer", "Piledriver", "Steamroller", "Excavator" (those are 4 different sub-generations)
+KEYWORD_CPU_ARCH_ID: AMD_FX
+Cores / Threads: 8/8
+Technology node: 32 nm
+Die Size: 315 mm²
+Transistors: 1200 million
+Frequency: 2100-4500 MHz
+Instructions: x86-64. MMX, SSE4.2, AMD-V, AVX
+TDP: 125 watts
+Cache L1: 128 KB = 64 KB + 64 KB (i+d)
+Cache L2: 2 MB per module, full-speed
+Cache L3: 8 MB
+Socket: AM3+
+Memory type: DDR3 SDRAM-1066/1333
+Memory bandwidth: ~21 GB/s
+Memory Size, Max: 32 GB(?)
+Historic note:
+Bulldozer. a.k.a. "Foofix" by the people.
+This CPU is interesting, because it was unique in a way where it was built from 4 modules of 2 cores each.
+This is theoretically better than hyper-threadring, because each core has it's own execution units and L1 cache, with only the FPU being shared.
+This CPU closed the gap with Intel when it comes to different supported instructions, adding support for SSE4.2 and AVX technology.
+Ultimately what killed this generation is ultra-slow single-core performance which was in many ways even slower than AMD's own previous-gen Phenom II processors, and it had no chance at all vs newer Intel Core i7-2600 "Sandy Bridge" series.

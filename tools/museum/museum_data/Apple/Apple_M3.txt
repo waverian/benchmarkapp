@@ -1,0 +1,31 @@
+Introduced: 2023
+Generation of Apple Architecture : 17
+Example: Apple M3
+Example products: Macbook Pro M3 (2023)
+Architecture / Codename:
+KEYWORD_CPU_ARCH_ID: APPLE_M3
+Cores / Threads: 4P+4e (4 Performance Cores + 4 efficiency cores)
+Technology node: 3 nm (TSMC N3B)
+Die Size: 141 mm^2 (estimated)
+Transistors: 25 billion
+Frequency: 4050 MHz
+Instructions: ARMv8, 64-bit, NEON.
+TDP: ~20 Watts
+Cache L1 (instructions / data): 192 KB + 128 KB /P-core (?)
+Cache L2: 12 MB /P-cluster (?)
+Cache L3: -
+Memory type: LPDDR5
+Memory bandwidth: 102.4 GB/s; (up to 819.2 GB/s for M2 Ultra)
+Memory Size, Max: 24 GB (up to 192 GB for M2 Ultra)
+Historical note:
+The M3 is Apple's first chip to be built on a 3 nm process; 
+includes a totally new Apple-designed GPU + a new video media engine, built from the ground up.
+Supports mesh shaders, ray-tracing, and AV1 video decoder.
+The GPU part shares a lot of common with the Apple A17 Pro chips.
+The CPU part is similar to the M1 and M2 chips, without much modifications, but clocked faster.
+
+Variants:
+A17 Pro - 6 cores (2P+4e); 5-6 GPU cores; mem.bandwidth = 51.2 GB/sec; 19 billion transistors
+M3 - 8 cores (4P+4e); 8-10 GPU cores; mem.bandwidth = 102.4 GB/sec; 25 billion transistors
+M3 Pro - 12 cores (6P+6e); 14-18 GPU cores; mem.bandwidth = 153.6 GB/sec; 37 billion transistors
+M3 Max - 16 cores (12P+4e); 30-40 GPU cores; mem.bandwidth = 409.6 GB/sec; 92 billion transistors
